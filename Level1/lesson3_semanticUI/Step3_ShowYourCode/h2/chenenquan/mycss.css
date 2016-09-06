@@ -1,0 +1,22 @@
+.ui.inverted.red.circular.segment.outer {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.ui.vertical.basic.segment {
+    height:600px;
+    background:url('images/flag.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;"
+}
+
+.ui.header {
+    font-size: 60px;
+    color: rgb(12, 185, 240);
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, 0);
+}
