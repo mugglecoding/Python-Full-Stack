@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background: url("../images/brick.jpg");
+  background-size: 150px 150px;
+}
+
+.center {
+  height: 800px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.cobble_stone {
+  height: 50%;
+  background: url("../images/cobble_stone.png");
+  background-size: 150px 150px;
+}
+
+.stonebrick {
+  position: relative;
+  height: 50%;
+  background: url("../images/stonebrick.png");
+  background-size: 150px 150px;
+}
+
+.inner_cobble_stone {
+  height: 60%;
+  width: 60%;
+  background: url("../images/inner_cobble_stone.png");
+  background-size: 150px 150px;
+  position: absolute;
+  transform: translate(-50%,-100%);
+  left: 50%;
+  top: 100%;
+}
+
+.har {
+  height: 85%;
+  width: 85%;
+  background: url("../images/har.gif");
+  background-size: cover;
+  position: absolute;
+  transform: translate(-50%,-100%);
+  left: 50%;
+  top: 100%;
+}
+
+.iron_bars {
+  height: 50%;
+  width: 100%;
+  background: url("../images/Iron_bars.png");
+  background-size: 120px 120px;
+  position: absolute;
+  transform: translate(-50%,-100%);
+  left: 50%;
+  top: 100%;
+}
