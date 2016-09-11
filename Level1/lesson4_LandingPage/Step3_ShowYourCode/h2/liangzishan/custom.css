@@ -1,17 +1,21 @@
+/* Main column (also container for rectangle) */
 .ui.three.column.grid > .column {
-    padding: 0;
+    padding:0;
 }
 
+/* Main column separate for Square */
 .column > .ui.two.column.grid {
-    margin: 0;
+    margin:0;
 }
 
+/* Square container */
 .ui.two.column.grid > .column {
     padding: 1%;
 }
 
+/* All single module include both square and retangle */
 .column > .ui.basic.segment {
-    padding: 0;
+    padding:0;
 }
 
 .auto-square {

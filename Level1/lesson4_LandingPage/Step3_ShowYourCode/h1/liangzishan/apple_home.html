@@ -5,81 +5,92 @@
         <meta charset="utf-8">
         <title>Apple Home</title>
         <link rel="stylesheet" href="../../../../lesson3_semanticUI/Step1_Imitation/css/semantic.css" media="screen" title="no title">
-        <link rel="stylesheet" href="custom.css" media="screen" title="no title">
+        <style media="screen">
+            #TopMenu > .image {height:44px; padding:0 10px 0 10px; margin:0 auto;}
+            #Promo > .column {padding:1px;}
+            #Directory > .row {padding:0; margin:0 auto;}
+            #Directory > .row > .column {padding:0;}
+            .DirTitleFont {height:20px; font-size:10px; color:#333;}
+            .DirFont {height:20px; font-size:10px; color:#777;}
+            .InfoFont {height:20px; font-size:10px; color:#BBB;}
+        </style>
     </head>
     <body>
         <div class="ui vertical basic segment">
             <!-- Navigation -->
+            <div class="ui centered grid" style="background-color:#333;">
+                <!-- TopMenu -->
+                <div class="fourteen wide column" style="padding:0; border:0; box-shadow:0 0;">
+                    <div id="TopMenu" class="ui menu" style="background-color:#333; border:0; box-shadow:0 0;">
+                        <a href="#" class="image"><img src="images/image_large (1).png"></a>
+                        <a href="#" class="image"><img src="images/image_large (2).png"></a>
+                        <a href="#" class="image"><img src="images/image_large.png"></a>
+                        <a href="#" class="image"><img src="images/image_large (8).png"></a>
+                        <a href="#" class="image"><img src="images/image_large (3).png"></a>
+                        <a href="#" class="image"><img src="images/image_large (5).png"></a>
+                        <a href="#" class="image"><img src="images/image_large (9).png"></a>
+                        <a href="#" class="image"><img src="images/image_large (4).png"></a>
+                        <a href="#" class="image"><img src="images/image_large (6).png"></a>
+                        <a href="#" class="image"><img src="images/image_large (7).png"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Heros -->
+            <div class="ui centered grid">
+                <!-- Hot -->
+                <div class="row" style="padding:0;">
+                    <div class="four wide column" style="padding-top:50px;">
+                        <a href="#" class="ui image"><img src="images/iphone_6s_medium_2x.png" /></a>
+                    </div>
+                    <div class="fourteen wide column" style="padding-top:50px;">
+                        <a href="#" class="ui image"><img src="images/iphone_6s_medium_2x.jpg" /></a>
+                    </div>
+                </div>
+                <!-- Promo -->
+                <div id="Promo" class="two column row" style="padding:0;">
+                    <div class="column">
+                        <a href="#" class="ui image"><img src="images/whereisthelove_medium_2x.jpg" /></a>
+                    </div>
+                    <div class="column">
+                        <a href="#" class="ui image"><img src="images/swift_playground_medium_2x.jpg" /></a>
+                    </div>
+                    <div class="column">
+                        <a href="#" class="ui image"><img src="images/accessories_medium_2x.jpg" /></a>
+                    </div>
+                    <div class="column">
+                        <a href="#" class="ui image"><img src="images/event_teaser_medium_2x.jpg" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interval -->
             <div class="ui grid">
-                <!-- TopMenu h44 background-color:#333333; -->
-                <div id="TopMenu" class="center aligned row">
-                    <div class="one wide column"></div>
-                    <div class="fourteen wide column">
-                        <div style="background-color:#333;" class="ui menu">
-                            <a href="#" class="image"><img src="images/image_large (1).png"></a>
-                            <a href="#" class="image"><img src="images/image_large (2).png"></a>
-                            <a href="#" class="image"><img src="images/image_large.png"></a>
-                            <a href="#" class="image"><img src="images/image_large (8).png"></a>
-                            <a href="#" class="image"><img src="images/image_large (3).png"></a>
-                            <a href="#" class="image"><img src="images/image_large (5).png"></a>
-                            <a href="#" class="image"><img src="images/image_large (9).png"></a>
-                            <a href="#" class="image"><img src="images/image_large (4).png"></a>
-                            <a href="#" class="image"><img src="images/image_large (6).png"></a>
-                            <a href="#" class="image"><img src="images/image_large (7).png"></a>
-                        </div>
-                    </div>
-                    <div class="one wide column"></div>
-                </div>
-                <!-- Hero h650 -->
-                <div id="Heros" style="padding:0;" class="center aligned row">
-                    <div class="six wide column"></div>
-                    <div class="four wide column">
-                        <a href="#" class="ui image"><img src="images/iphone_6s_medium_2x.png" alt="" /></a>
-                    </div>
-                    <div class="six wide column"></div>
-                    <div class="one wide column"></div>
-                    <div class="fourteen wide column">
-                        <a href="#" class="ui image"><img src="images/iphone_6s_medium_2x.jpg" alt="" /></a>
-                    </div>
-                    <div class="one wide column"></div>
-                </div>
-                <!-- Promo padding:1px;-->
-                <div id="Promo" style="padding:0;" class="center aligned two column row">
-                    <div class="column">
-                        <a href="#" class="ui image"><img src="images/whereisthelove_medium_2x.jpg" alt="" /></a>
-                    </div>
-                    <div class="column">
-                        <a href="#" class="ui image"><img src="images/swift_playground_medium_2x.jpg" alt="" /></a>
-                    </div>
-                    <div class="column">
-                        <a href="#" class="ui image"><img src="images/accessories_medium_2x.jpg" alt="" /></a>
-                    </div>
-                    <div class="column">
-                        <a href="#" class="ui image"><img src="images/event_teaser_medium_2x.jpg" alt="" /></a>
-                    </div>
-                </div>
-                <!-- Interval -->
-                <div id="Interval" style="padding:10px;" class="center aligned row">
+                <div class="center aligned row" style="padding:10px;">
                     <div class="sixteen wide column">
                         <div class="ui horizontal divided list">
                             <div class="middle aligned item">
-                                <img class="ui small image" src="images/redcross_banner_large_2x.jpg" alt="" />
+                                <img class="ui small image" src="images/redcross_banner_large_2x.jpg" />
                             </div>
                             <div class="middle aligned item">
                                 <span>
                                     Louisiana Flood and Central Italy Earthquake Relief
-                                    <a style="margin:0 0 0 10px;" href="#">Donate to help ></a>
+                                    <a href="#" style="margin:0 0 0 10px;">
+                                        Donate to help>>>
+                                    </a>
                                 </span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Directory h348 background-color:#F2F2F2; -->
-                <div id="Directory" style="margin:0 auto;" class="row">
-                    <!-- Information -->
-                    <div class="two wide column"></div>
+            </div>
+
+            <!-- Directory -->
+            <div id="Directory" class="ui centered grid" style="background-color:#F2F2F2;">
+                <!-- Links -->
+                <div class="row">
                     <div class="twelve wide column">
-                        <div style="padding-top:20px;" class="ui five column left aligned grid">
+                        <div class="ui five column left aligned grid" style="padding-top:20px;">
                             <div class="column">
                                 <div class="ui link list">
                                     <div class="active item"><span class="DirTitleFont">选购及了解</span></div>
@@ -145,11 +156,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="two wide column"></div>
-                    <!-- Declaration -->
-                    <div class="two wide column"></div>
-                    <div style="padding-top:20px; margin-bottom:5px;" class="twelve wide column">
-                        <div style="padding:10px 0;" class="container">
+                </div>
+
+                <!-- Declaration -->
+                <div class="row">
+                    <div class="twelve wide column" style="padding-top:20px; margin-bottom:5px;">
+                        <div class="container" style="padding:10px 0;">
                             <span class="InfoFont">
                                 更多选购方式：前往
                                 <a href="#">Apple Store 零售店</a>
@@ -160,8 +172,8 @@
                         </div>
                         <div class="ui fitted divider"></div>
                     </div>
-                    <div class="two wide column"></div>
-                    <div class="two wide column"></div>
+                </div>
+                <div class="row">
                     <div class="four wide left aligned column">
                         <div class="ui horizontal divided list">
                             <div class="middle aligned item">
@@ -193,7 +205,7 @@
                     <div class="three wide right aligned column">
                         <div class="ui horizontal list">
                             <div class="middle aligned item">
-                                <img style="height:20px;" src="images/32.png" alt="" />
+                                <img style="height:20px;" src="images/32.png" />
                             </div>
                             <div class="middle aligned item">
                                 <span class="InfoFont">
@@ -202,14 +214,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="two wide column"></div>
-                    <div class="two wide column"></div>
-                    <div style="height:20px; padding:0px; margin:0 0 20px 0;" class="twelve wide column">
+                </div>
+                <div class="row">
+                    <div class="twelve wide column" style="height:20px; margin:0 0 20px 0;">
                         <span class="InfoFont">
                             京公安网安备 11010502008968 京 ICP 备 10214630
                         </span>
                     </div>
-                    <div class="two wide column"></div>
                 </div>
             </div>
         </div>

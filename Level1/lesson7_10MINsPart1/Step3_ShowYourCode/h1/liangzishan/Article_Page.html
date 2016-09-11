@@ -5,12 +5,11 @@
         <title>Article Page</title>
         <link rel="stylesheet" href="../../../../lesson3_semanticUI/Step1_Imitation/css/semantic.css" media="screen" title="no title">
         <style media="screen">
-            .rbd {border:1px red solid!important;}
-            .segment {margin:0!important; padding:0!important;}
+            /*.rbd {border:1px red solid!important;}*/
             .heros {
                 background-image:url('../../../Step2_Practice/l7h2/images/detail.jpg');
                 background-size:cover;
-                height:320px;
+                height:240px;
             }
             .tenlogo {
                 position: absolute;
@@ -21,13 +20,16 @@
         </style>
     </head>
     <body>
-        <div class="ui basic segment" style="background-color:#DB402B;">
+        <!-- Menu -->
+        <div class="ui basic segment" style="background-color:#DB402B; padding:0; margin:0;">
             <div class="ui borderless menu" style="height:44px; background-color:transparent; border:0; margin-bottom:0;">
+                <!-- Logo -->
                 <div class="tenlogo">
                     <a href="#" class="ui image">
                         <img src="../../../Step2_Practice/l7h2/images/tenlogo.png" alt="" />
                     </a>
                 </div>
+                <!-- Sign up and sign in -->
                 <div class="ui right menu" style="background-color:transparent; box-shadow:0 0; border:0;">
                     <div class="item" style="padding:10px;">
                         <button class="ui basic segment" style="color:white;">
@@ -44,10 +46,15 @@
                 </div>
             </div>
         </div>
+
+        <!-- Hero -->
         <div class="heros"></div>
+
+        <!-- Article -->
         <div class="ui centered grid" style="margin:0;">
             <div class="eight wide column">
-                <div class="ui basic segment">
+                <!-- Content -->
+                <div class="ui basic segment" style="padding:0; margin:0;">
                     <h2>Go to the profile of Washington Post</h2>
                     <div class="ui horizontal divided list" style="color:grey; margin-bottom:10px;">
                         <div class="item" style="font-size:10px;">
@@ -72,7 +79,8 @@
                     </article>
                     <div class="ui divider"></div>
                 </div>
-                <div class="ui basic segment">
+                <!-- Buttons -->
+                <div class="ui basic segment" style="padding:0; margin:0;">
                     <div class="ui horizontal list" style="width:100%; border:0; box-shadow:0 0;">
                         <div class="item" style="width:100%">
                             <div class="left floated content">
