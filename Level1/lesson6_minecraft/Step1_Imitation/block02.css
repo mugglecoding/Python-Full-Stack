@@ -1,0 +1,39 @@
+
+.flower {
+    box-sizing: border-box;
+    width: 64px;
+    height: 64px;
+    background: url('images/rose.png');
+    background-size: contain;
+    position: relative;
+    top: 64px;
+    left: 64px;
+
+}
+
+.block01 {
+    box-sizing: border-box;
+    width: 64px;
+    height: 64px;
+    background: url('images/grass.png');
+    background-size: contain;
+}
+
+
+.block02 {
+    box-sizing: border-box;
+    width: 128px;
+    height: 64px;
+    background: url('images/grass.png');
+    background-size: contain;
+}
+
+
+
+.block03 {
+    box-sizing: border-box;
+    width: 192px;
+    height: 64px;
+    background: url('images/grass.png');
+    background-size: contain;
+}
