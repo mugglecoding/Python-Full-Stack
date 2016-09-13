@@ -5,3 +5,24 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.subheader2 {
+    font-size: 10px;
+}
+
+.ui.inverted.header {
+    font-size: 40px;
+}
+
+.ui.inverted.header {
+    margin-top: 20px;
+}
+
+.ui.text.three.item.menu{
+    padding-left: 42%;
+}
+
+.ui.vertical.basic.segment.article {
+    margin-left: 30%;
+    margin-right: 30%;
+}
