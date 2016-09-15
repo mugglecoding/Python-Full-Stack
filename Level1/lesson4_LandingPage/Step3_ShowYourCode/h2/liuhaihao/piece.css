@@ -1,0 +1,47 @@
+
+.ui.vertical.segment.short{
+    width: 97px;
+    height: 100px;
+    top: -6px;
+    left: 7px;
+
+
+}
+.ui.vertical.inverted.segment.page{
+    width: 650px;
+    height: 117px;
+
+}
+.ui.vertical.segment.long{
+    width: 202px;
+    height: 100px;
+    top: -6px;
+    left: 7px;
+
+
+}
+.inverted.apple.icon{
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+    position: absolute;
+
+}
+.ui.inverted.header{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.inverted.huge.facebook{
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+    position: absolute;
+}
+.inverted.huge.dribbble.icon{
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+    position: absolute;
+}

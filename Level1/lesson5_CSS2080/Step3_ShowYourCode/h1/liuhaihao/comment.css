@@ -1,0 +1,12 @@
+.ui.vertical.raised.padded.segment{
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color:rgb(20, 179, 88) ;
+    margin-top: 5px;
+}
+.ui.vertical.padded.segment.three{
+    background-color: rgb(194, 194, 194);
+}
+.ui.vertical.padded.segment.four{
+    background-color: rgb(255, 255, 255);
+}
