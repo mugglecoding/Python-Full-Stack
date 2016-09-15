@@ -13,14 +13,17 @@ body {
     top:40%;
     left: 50%;
     transform: translate(-50%,-50%);
+    background-color: transparent;
 }
 
 .ui.inverted.red.basic.segment.left {
     width: 150px;
+    opacity: 0.8;
 }
 
 .ui.basic.segment.right {
     width: 275px;
+    background-color: white;
 }
 
 .inverted.white.angle.left.icon {
