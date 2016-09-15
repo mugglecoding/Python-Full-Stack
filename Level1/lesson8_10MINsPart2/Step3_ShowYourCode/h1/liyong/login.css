@@ -1,0 +1,44 @@
+
+.ui.segment.bg {
+    height: 100%;
+    background: url('images/super_blur_back2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two.wide.column.left1 {
+    top:94px;
+    height: 350px;
+    background: url('images/red_regi.jpg');
+    background-size: conver;
+    background-repeat: no-repeat;
+}
+
+/*.left1 {
+    top:80px;
+}*/
+
+.left2 {
+    text-align: center;
+    position: absolute;
+    top:90px;
+    left:40px;
+}
+
+.left3 {
+    position: absolute;
+    top:120px;
+    left:15px;
+}
+
+.right1 {
+    top:80px;
+    left: -15px;
+    height: 350px;
+    width: 400px;
+}
+
+.right2 {
+    position: absolute;
+    margin-top:-10px;
+}
