@@ -1,0 +1,23 @@
+.zhengtibeijing {
+  background: url('images/super_blur_back2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 0;
+  height: 1000px;
+}
+
+.xiaohongkuang {
+  box-sizing: border-box;
+   height: 300px;
+   width: 450px;
+   margin: 0 auto;
+   background: url('images/red_regi.jpg');
+   background-size:cover;
+}
+
+.xiaobaikuang {
+  box-sizing: border-box;
+  height: 300px;
+  width: 337.5px;
+  background-color: rgb(255, 255, 255);
+}
