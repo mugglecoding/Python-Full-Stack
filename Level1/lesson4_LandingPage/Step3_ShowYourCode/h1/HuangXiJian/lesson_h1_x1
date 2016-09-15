@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>lesson4 h1</title>
+        <!-- <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title" charset="utf-8"> -->
+
+        <link rel="stylesheet" href="../../../../lesson4_LandingPage/Step1_Imitation/css/semantic.css" media="screen" title="no title" charset="utf-8">
+
+    </head>
+    <body>
+        <div class="ui inverted vertical segment">
+            <div class="ui centered grid">
+                <div class="ui inverted vertically fitted secondary menu">
+                    <a href="#" class="item">
+                        <img class="ui fluid image" src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/image_large (1).png" alt="logo" />
+                    </a>
+
+                    <a href="#" class="item">
+                        <img class="ui fluid image"  src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/image_large (2).png" alt="mac" />
+                    </a>
+
+                    <a href="#" class="item">
+                        <img class="ui fluid image"  src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/image_large.png" alt="mac" />
+                    </a>
+
+                    <a href="#" class="item">
+                        <img class="ui fluid image"  src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/image_large (8).png" alt="iphone" />
+                    </a>
+
+                    <a href="#" class="item">
+                        <img class="ui fluid image"  src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/image_large (3).png" alt="wacth" />
+                    </a>
+
+                    <a href="#" class="item">
+                        <img class="ui fluid image"  src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/image_large (4).png" alt="TV" />
+                    </a>
+
+                    <a href="#" class="item">
+                        <img class="ui fluid image"  src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/image_large (5).png" alt="music" />
+                    </a>
+
+                    <a href="#" class="item">
+                        <img class="ui fluid image"  src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/image_large (9).png" alt="support" />
+                    </a>
+
+                    <a href="#" class="item">
+                        <img class="ui fluid image"  src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/image_large (6).png" alt="search" />
+                    </a>
+
+                    <a href="#" class="item">
+                        <img class="ui fluid image"  src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/image_large (7).png" alt="shop" />
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui vertical very padded basic segment">
+            <div class="ui centered grid">
+                <div class="row">
+                    <!-- 暂用于增加上方空白 -->
+                </div>
+                <div class="row">
+                    <div class="ui vertical basic segment">
+                        <img class="ui small centered image" src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/iphone_6s_medium_2x.png" alt="iphone6s" />
+                        <!-- <h3 class="ui header">3D Touch, 12MP Photo, 4k video. One Powerful phone.</h3> -->
+                        <p style="color:black;font-size:18px;">
+                            3D Touch, 12MP Photo, 4k video. One Powerful phone.
+                        </p>
+                        <div class="ui image">
+                            <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/iphone_6s_medium_2x.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <p style="color:black;font-size:18px;">
+                        3D Touch, 12MP Photo, 4k video. One Powerful phone.
+                    </p>
+                    <div class="ui image">
+                        <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/iphone_6s_medium_2x.jpg" alt="" />
+                    </div>
+                </div> -->
+
+            </div>
+
+        </div>
+
+        <div class="ui vertical basic segment">
+
+            <div class="ui centered grid">
+                <!-- <div class="four wide column">
+                    <div class="ui fluid image">
+                        <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/whereisthelove_medium_2x.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div class="four wide column">
+                    <div class="ui image">
+                        <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/swift_playground_medium_2x.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div class="four wide column">
+                    <div class="ui image">
+                        <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/accessories_medium_2x.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div class="four wide column">
+                    <div class="ui image">
+                        <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/event_teaser_medium_2x.jpg" alt="" />
+                    </div>
+                </div> -->
+                <div class="ui horizontal segments">
+                    <!-- <div class="ui fluid image">
+                        <svg width="350" height="130">
+                            <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../../../lesson4_LandingPage/Step2_Practice/l4h1/whereisthelove_medium_2x.jpg" x="0" y="0" width="100%" height="100%"></image>
+                        </svg>
+                    </div>
+                    <div class="ui fluid image">
+                        <svg width="350" height="130">
+                            <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../../../lesson4_LandingPage/Step2_Practice/l4h1/swift_playground_medium_2x.jpg" x="0" y="0" width="100%" height="100%"></image>
+                        </svg>
+                    </div>
+                    <div class="ui fluid image">
+                        <svg width="350" height="130">
+                            <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../../../lesson4_LandingPage/Step2_Practice/l4h1/whereisthelove_medium_2x.jpg" x="0" y="0" width="100%" height="100%"></image>
+                        </svg>
+                    </div>
+                    <div class="ui fluid image">
+                        <svg width="350" height="130">
+                            <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../../../lesson4_LandingPage/Step2_Practice/l4h1/swift_playground_medium_2x.jpg" x="0" y="0" width="100%" height="100%"></image>
+                        </svg>
+                    </div> -->
+                    <div class="ui fluid image">
+                        <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/whereisthelove_medium_2x.jpg" alt="" />
+                    </div>
+                     <div class="ui fluid image">
+                        <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/swift_playground_medium_2x.jpg" alt="" />
+                    </div>
+                    <div class="ui fluid image">
+                        <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/accessories_medium_2x.jpg" alt="" />
+                    </div>
+                    <div class="ui fluid image">
+                        <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/event_teaser_medium_2x.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div class="eight wide column">
+                    <div class="ui secondary vertically fitted menu">
+                        <div class="ui secondary vertical pointing menu">
+                            <div class="item">
+                                <div class="ui image">
+                                    <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/redcross_banner_large_2x.jpg" alt="" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="ui secondary menu">
+                            <div class="item">
+                                <p>
+                                    Louisiana Flood and Central Italy Earthquake Relief <a href="#">Donate to help ></a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <div class="ui vertical inverted green basic segment">
+
+            <div class="ui image">
+                <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/redcross_banner_large_2x.jpg" alt="" />
+            </div>
+
+            <div class="ui basic segment">
+                <p>
+                    Louisiana Flood and Central Italy Earthquake Relief
+                </p>
+            </div>
+
+        </div> -->
+
+        <div class="ui vertical secondary basic segment">
+            <div class="ui centered grid">
+                <div class="two wide column">
+                    <div class="ui vertical secondary menu">
+                        <div class="item">
+                            <div class="header">选购及了解</div>
+                            <div class="menu">
+                                <a class="item">Mac</a>
+                                <a class="item">iPad</a>
+                                <a class="item">iPhone</a>
+                                <a class="item">Watch</a>
+                                <a class="item">Music</a>
+                                <a class="item">iTunes</a>
+                                <a class="item">iPod</a>
+                                <a class="item">配件</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column">
+                    <div class="ui vertical secondary menu">
+                        <div class="item">
+                            <div class="header">Apple Store 商店</div>
+                            <div class="menu">
+                                <a class="item">查找零售店</a>
+                                <a class="item">Genius Bar 天才吧</a>
+                                <a class="item">讲座和学习</a>
+                                <a class="item">青少年活动</a>
+                                <a class="item">Apple Store App</a>
+                                <a class="item">翻新产品</a>
+                                <a class="item">分期付款</a>
+                                <a class="item">重复使用和循环利用</a>
+                                <a class="item">订单状态</a>
+                                <a class="item">选购帮助</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column">
+                    <div class="ui vertical secondary menu">
+                        <div class="item">
+                            <div class="header">教育应用</div>
+                            <div class="menu">
+                                <a class="item">Apple与教育</a>
+                                <a class="item">高校师生咨询</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui vertical secondary menu">
+                        <div class="item">
+                            <div class="header">商务应用</div>
+                            <div class="menu">
+                                <a class="item">Apple与商务</a>
+                                <a class="item">商务选购</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column">
+                    <div class="ui vertical secondary menu">
+                        <div class="item">
+                            <div class="header">账户</div>
+                            <div class="menu">
+                                <a class="item">管理你的Apple ID</a>
+                                <a class="item">Apple Store 账户</a>
+                                <a class="item">iCloud com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui vertical secondary menu">
+                        <div class="item">
+                            <div class="header">Apple 价值观</div>
+                            <div class="menu">
+                                <a class="item">辅助功能</a>
+                                <a class="item">环境责任</a>
+                                <a class="item">隐私</a>
+                                <a class="item">供应商责任</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column">
+                    <div class="ui secondary vertical menu">
+                        <div class="item">
+                            <div class="header">关于 Apple</div>
+                            <div class="menu">
+                                <a class="item">Apple 资讯</a>
+                                <a class="item">工作机会</a>
+                                <a class="item">媒体资讯</a>
+                                <a class="item">活动</a>
+                                <a class="item">联系 Apple</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="ten wide column">
+                    <div class="ui secondary pointing mini menu">
+                        <p>
+                            更多选购方式：前往<a href="#">Apple Store 零售店</a> ，致电 400-666-8800 或查找在你附近的<a href="#">授权经销商</a> .
+                        </p>
+                    </div>
+                    <div class="ui secondary menu">
+                        <p>
+                            Copyright © 2016 Apple Inc. 保留所有权利。
+                        </p>
+                        <div class="ui secondary vertical pointing menu">
+                            <a href="#" class="item">隐私政策</a>
+                        </div>
+                        <div class="ui secondary vertical pointing menu">
+                            <a href="#" class="item">使用条款</a>
+                        </div>
+                        <div class="ui secondary vertical pointing menu">
+                            <a href="#" class="item">销售政策</a>
+                        </div>
+                        <div class="ui secondary vertical pointing menu">
+                            <a href="#" class="item">法律信息</a>
+                        </div>
+                        <div class="ui secondary vertical menu">
+                            <a href="#" class="item">网站地图</a>
+                        </div>
+
+                        <div class="ui right secondary menu">
+                            <a href="#" class="item">
+                                <img class="ui spaced image" src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/32.png" alt="" />
+                                United States
+                            </a>
+                        </div>
+
+                    </div>
+                    <p>
+                        京公安网安备 11010502008968 京ICP备10214630
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- <div class="ui vertical padded secondary basic segment">
+            <div class="ui secondary pointing menu">
+                        <p>
+                            更多选购方式：前往<a href="#">Apple Store 零售店</a> ，致电 400-666-8800 或查找在你附近的<a href="#">授权经销商</a> .
+                        </p>
+            </div>
+            <div class="ui secondary menu">
+                <p>
+                    Copyright © 2016 Apple Inc. 保留所有权利。
+                </p>
+                <div class="ui secondary vertical pointing menu">
+                    <a href="#" class="item">隐私政策</a>
+                </div>
+                <div class="ui secondary vertical pointing menu">
+                    <a href="#" class="item">使用条款</a>
+                </div>
+                <div class="ui secondary vertical pointing menu">
+                    <a href="#" class="item">销售政策</a>
+                </div>
+                <div class="ui secondary vertical pointing menu">
+                    <a href="#" class="item">法律信息</a>
+                </div>
+                <div class="ui secondary vertical menu">
+                    <a href="#" class="item">网站地图</a>
+                </div>
+                <div class="ui compact image">
+                    <img src="../../../../lesson4_LandingPage/Step2_Practice/l4h1/32.png" alt="country" />
+                </div>
+                <p>
+                    United States
+                </p>
+            </div>
+            <p>
+                京公安网安备 11010502008968 京ICP备10214630
+            </p> -->
+
+
+<!--
+            <div class="ui secondary pointing menu">
+                <div class="item">
+
+                        更多选购方式：前往 Apple Store 零售店，致电 400-666-8800 或查找在你附近的授权经销商。
+
+                </div>
+
+            </div>
+            <div class="ui secondary vertical pointing menu">
+                <p>
+                    Copyright © 2016 Apple Inc. 保留所有权利。
+                </p>
+                <a href="#" class="item">1111</a>
+
+            </div> -->
+
+        </div>
+
+    </body>
+</html>
