@@ -1,0 +1,9 @@
+.ui.basic.segment.centerS{
+  left: 50%;
+  transform: translate(-50%);
+  position: relative;
+}
+body{
+  position: relative;
+  background-color: #F5F5F5;
+}

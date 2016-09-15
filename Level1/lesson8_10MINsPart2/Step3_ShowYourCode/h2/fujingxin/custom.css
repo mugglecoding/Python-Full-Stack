@@ -1,0 +1,11 @@
+body{
+  background: url('images/star_banner.jpg');
+  background-size: cover;
+}
+.ui.padded.segment.centerS{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transform: translate(-50%,0);
+  left: 50%;
+  position: relative;
+}

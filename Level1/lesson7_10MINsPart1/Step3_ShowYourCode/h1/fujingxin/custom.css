@@ -1,0 +1,30 @@
+.image_background{
+  margin-top: 0px;
+  height: 50%;
+  width: 100%;
+  background: url('images/detail.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.center_segment{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.grey_text{
+  font-siz:100px;
+  color:#CBCBCB;
+}
+.ui.icon.button.got_it{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+.ui.circular.black.button.save_button{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%,0);
+}

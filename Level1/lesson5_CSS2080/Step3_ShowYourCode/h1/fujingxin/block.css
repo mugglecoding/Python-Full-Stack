@@ -1,0 +1,30 @@
+.block-1 {
+    border-left: solid 5px #76D578;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: black;
+}
+.text-1{
+  color:#748FC9;
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin-right: 0.6em;
+}
+.background-1{
+  color:"color:#E9E9E9";
+}
+.block-2 {
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  background-color: #E5E5E5;
+}
+
+.block-3 {
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
