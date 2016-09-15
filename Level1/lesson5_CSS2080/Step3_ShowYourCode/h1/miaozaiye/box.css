@@ -1,0 +1,43 @@
+.block-1{
+  border-left: solid 2px green;
+  padding: 20px 20px 10px 20px;
+  background: white;
+  box-sizing: border-box;
+  width: 50%;
+  margin-top:5px;
+  margin-bottom: 5px;
+  margin-left: 25%;
+
+}
+
+.block-2{
+  border-left: solid 2px green;
+  margin-bottom: 20px 20px 0 20px;
+  background:gray;
+  padding:20px;
+
+  margin:5px;
+
+}
+
+.block-3{
+  border-left: solid 2px green;
+  margin-bottom: 20px 20px 0 20px;
+  background: white;
+  padding:20px;
+
+  margin:5px;
+
+}
+
+.title{
+  font-weight: bold;
+  color: blue;
+
+}
+
+.time{
+  font-weight: normal;
+  color:gray;
+
+}
