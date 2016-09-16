@@ -1,0 +1,13 @@
+.ui.vertical.segment.s1 {
+    background-image: url(images/star_banner.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.ui.article.segment,.ui.comment.segment{
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+input, textarea {
+    width: 570px;
+}

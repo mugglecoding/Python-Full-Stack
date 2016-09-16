@@ -1,0 +1,34 @@
+.ui.vertical.segment {
+    position: relative;
+    background-image: url(images/back2.jpg);
+    background-size: cover;
+    height: 700px;
+}
+.mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: blue;
+    opacity: 0.3;
+}
+.ui.segment.picture{
+    background-image: url(images/red_regi.jpg);
+    width:0;
+    background-size: cover;
+
+
+}
+.ui.horizontal.segments{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.ui.fluid.input{
+    margin-top: 10px;
+}

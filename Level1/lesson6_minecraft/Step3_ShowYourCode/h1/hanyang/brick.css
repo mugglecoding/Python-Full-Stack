@@ -1,0 +1,52 @@
+.ui.container {
+    background-image: url(images/brick.jpg);
+    background-repeat: repeat;
+    background-size: 150px, 150px;
+    width: 1000px;
+    height: 700px;
+    position: relative;
+}
+.block1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-image: url(images/cobble_stone.png);
+    background-repeat: repeat;
+    background-size: 100px, 100px;
+    width: 400px;
+    height: 350px;
+}
+.block2 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-image: url(images/stonebrick.png);
+    background-repeat: repeat;
+    background-size: 100px, 100px;
+    width: 400px;
+    height: 350px;
+}
+.block3 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-image: url(images/inner_cobble_stone.png);
+    background-repeat: repeat;
+    background-size: 100px, 100px;
+    width: 200px;
+    height: 200px;
+}
+.block4 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-image: url(images/har.gif);
+    background-repeat: repeat;
+    background-size: 100px, 100px;
+    width: 100px;
+    height: 100px;
+}

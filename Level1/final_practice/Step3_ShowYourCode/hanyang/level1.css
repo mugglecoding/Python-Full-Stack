@@ -1,0 +1,10 @@
+.ui.three.item.menu{
+    margin: auto;
+}
+.image > img {
+    object-fit: cover;
+    height: 300px;
+}
+.ui.fluid.card {
+    box-shadow: none;
+}
