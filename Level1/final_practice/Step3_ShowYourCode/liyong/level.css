@@ -14,6 +14,14 @@
 
 }
 
+
+.ui.tiny.image.ban003 {
+    position: relative;
+    top:-10px;
+    left:20px;
+
+}
+
 .right.menu.ban04{
     position: relative;
     top:-20px;
@@ -31,10 +39,8 @@
     padding-right: 10%;
 }
 
-.ui.inverted.segment.card-see {
-    height: 200px;
-    width: 260px;
-    margin-bottom: 60px;
+.img-card {
+margin-right: 10px;
 }
 
 .card-v {
