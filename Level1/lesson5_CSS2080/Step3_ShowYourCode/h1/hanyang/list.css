@@ -1,0 +1,12 @@
+span {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 100;
+    color: gray;
+}
+.ui.padded.first.segment{
+    border-left: solid blue;
+}
+.ui.padded.second.segment, .ui.padded.fourth.segment{
+    background-color: rgb(212, 218, 221);
+}
