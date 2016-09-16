@@ -11,7 +11,7 @@ body{
 
 }
 .ui.inverted.text.menu{
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 10px;
     margin: 0;
 }
 
@@ -64,4 +64,8 @@ body{
     position: relative;
     left: 50%;
     transform: translate(-50%,0);
+}
+.ui.inverted.text.menu.xue{
+    position: relative;
+    bottom:7px;
 }
