@@ -1,0 +1,45 @@
+.ui.vertical.basic.segment{
+  background: url('images/star_banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.ui.vertical.basic.segment.second{
+  background: url('images/star_banner.jpg');
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top:500px;
+
+}
+
+
+.ui.vertical.basic.segment{
+  position: relative;
+}
+
+.bg{
+  background:white;
+  width: 500px;
+  height: 600px;
+  padding: 0 0 0 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.bg.next{
+  background: white;
+  width: 500px;
+  height: 470px;
+  padding: 0 0 0 10px;
+  position: absolute;
+  left: 50%;
+  top: 562px;
+  transform: translate(-50%,-50%);
+
+}

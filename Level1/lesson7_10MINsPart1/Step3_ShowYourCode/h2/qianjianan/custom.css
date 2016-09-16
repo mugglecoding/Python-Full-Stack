@@ -1,0 +1,18 @@
+.ui.inverted.vertical.segment > .ui.image{
+
+  background-repeat: no-repeat;
+
+}
+
+.ui.inverted.center.aligned.header.slogan{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.ui.two.centered.column.grid{
+  padding-left: 450px;
+  padding-right: 450px;
+}

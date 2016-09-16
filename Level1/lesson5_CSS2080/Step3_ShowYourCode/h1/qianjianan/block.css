@@ -1,0 +1,52 @@
+.block-1 {
+    border-left:  solid 4px green;
+    border-bottom: solid 4px gray;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    width: auto;;
+    height: auto;
+    background:white;
+
+}
+
+.block-2 {
+    border-left: solid 4px green;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    background: white;
+}
+
+.block-3{
+
+  padding: 0 20px 0 20px;
+  box-sizing: padding-box;
+  width: auto;
+  height: auto;
+  background: gray;
+
+
+}
+
+.block-4{
+
+  padding: 0 20px 0 20px;
+  box-sizing: content-box;
+  width: auto;
+  height: auto;
+  background: white;
+
+
+}
+
+.block-5{
+
+  padding: 0 20px 0 20px;
+  box-sizing: inherit;
+  width: auto;
+  height: auto;
+  background: gray;
+
+
+}

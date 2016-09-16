@@ -1,0 +1,55 @@
+.ui.vertical.basic.segment{
+  height: inherit;
+  background: url('images/super_blur_back2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;;
+}
+
+.ui.vertical.basic.segment > .ui.vertical.basic.segment.insert{
+  background: url('images/red_regi.jpg');
+  background-repeat: no-repeat;
+  box-sizing: padding-box;
+  background-size:contain;
+  width: 700px;
+  height: 400px;
+  position:absolute;
+  top:25%;
+  left: 25%;
+
+}
+
+.four.wide.column{
+  position: relative;
+  top: 50px;
+
+}
+
+
+.bg{
+  background:white;
+  width: 510px;
+  height: 400px;
+  position: relative;
+  right: 11px;
+  bottom: 25.5px;
+}
+
+.ui.input{
+  width: 480px;
+  padding-left: 20px;
+  margin: 10px;
+  position: relative;
+  top: 35px;
+}
+
+.bg > .ui.header{
+  position: relative;
+  right: 20px;
+}
+.ui.red.circular.inverted.button{
+  position: relative;
+  top: 40px;
+  right: 20px;
+
+}

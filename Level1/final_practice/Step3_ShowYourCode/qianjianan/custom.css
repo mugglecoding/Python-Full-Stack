@@ -1,0 +1,73 @@
+.ui.vertical.basic.segment.masthead {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+
+}
+
+.ui.inverted.center.aligned.header.slogan {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ui.red.circular.button {
+    width: 220px;
+}
+
+.ui.red.circle.button{
+  position: relative;
+  right: 30px;
+}
+.ui.two.column.centered.grid > .column{
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+
+.ui.header.logo {
+    font-size: 30px;
+    color: rgb(196, 196, 196);
+}
+
+.ui.inverted.segment.card-view {
+    height: 220px;
+
+}
+
+.ui.two.centered.column.grid > .column{
+  margin-top: 50px;
+  padding-left: 550px;
+  padding-right: 550px;
+}
+
+.ui.three.column.grid > .column{
+  width: 300px;
+  height: 280px;
+
+}
+.ui.fluid.card img{
+  height: 200px;
+  object-fit: cover;
+}
+
+.ui.three.centered.column.grid{
+  margin-bottom: auto;
+}
+
+.ui.vertical.basic.segment.slogan{
+  position: relative;
+}
+
+.bordered.red.big.arrow.left.icon{
+  position: absolute;
+  left: 48.1%;
+
+}
+.bordered.red.big.arrow.right.icon
+{
+  position: absolute;
+  left: 51.9%;
+}
