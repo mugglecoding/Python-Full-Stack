@@ -1,0 +1,46 @@
+body{
+    /*border: solid 2px ;*/
+    /*margin: 0px;*/
+    padding: auto;
+    box-sizing: border-box;
+    background:rgb(233, 233, 233);
+}
+
+.command-1{
+    border-left: solid 3px rgb(0, 219, 92);
+    margin: 5px auto 0 auto;
+    padding: 5px 20px 5px 20px;
+    box-sizing: border-box;
+    width: 700px;
+    /*height: 64px;*/
+    background:white;
+}
+
+.command-2{
+    padding: 5px 20px 5px 20px;
+    box-sizing: border-box;
+    background:rgb(233, 233, 233);
+}
+
+.command-3{
+    padding: 5px 20px 5px 20px;
+    box-sizing: border-box;
+    background:white;
+}
+
+.tittle{
+    margin:0 0 1px 0;
+    color: blue;
+    font-family : Times New Roman;
+}
+
+p.tittle span {
+    /*margin: 0px;*/
+	color: grey;
+    font-size: 10px;
+	}
+
+.text{
+    margin:0 0 6px 0;
+    font-family : Times New Roman;
+}
