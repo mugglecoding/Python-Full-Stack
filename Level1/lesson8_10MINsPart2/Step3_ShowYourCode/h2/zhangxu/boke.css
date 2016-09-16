@@ -1,0 +1,60 @@
+.beijing {
+  background: url('images/star_banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1400px;
+  padding-top: 20px;
+}
+
+.wenzhangkuang {
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 5px 20px 5px;
+  margin:0 auto;
+  width: 400px;
+}
+
+.biaoti {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pinglunkuang {
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 5px 20px 5px;
+  margin:0 auto;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.commentbiaoti {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.commentbiaoti1 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.namekuang {
+  box-sizing: border-box;
+  height: 30px;
+  border: solid 1px rgb(234, 234, 234);
+  margin: 0 auto;
+}
+
+.namekuang1 {
+  box-sizing: border-box;
+  height: 150px;
+  border: solid 1px rgb(234, 234, 234);
+  margin: 0 auto;
+}
+
+.click {
+  margin-top: 5px;
+}
