@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: url('Python-Full-Stack/Level1/lesson7_10MINsPart1/Step2_Practice/l7h1/images/star_banner.jpg');
+    background-size: contain;
+}
+
+.ui.segment.container {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.ui.segment.comment {
+    margin-bottom: 18px;
+}
+
+.ui.rounded.image {
+    width: 30px;
+    height: 30px;
+}
+
+.ui.header.comment {
+    font-size: 15px;
+}
+
+.sub.header.comment {
+    font-size: 12px;
+    color: rgb(140, 140, 140);
+}
+
+.ui.left.floated.rounded.image {
+    position: relative;
+    top: 50%;
+    transform: translate(0, 0);
+}

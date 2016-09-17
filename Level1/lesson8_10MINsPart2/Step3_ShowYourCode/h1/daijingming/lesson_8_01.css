@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: url('Python-Full-Stack/Level1/lesson8_10MINsPart2/Step2_Practice/l8h1/images/super_blur_back2.jpg');
+    background-size: cover;
+}
+
+.ui.basic.segment.container {
+    /*box-sizing: border-box;*/
+    width: 600px;
+    height: 400px;
+    background: url('Python-Full-Stack/Level1/lesson8_10MINsPart2/Step2_Practice/l8h1/images/red_regi.jpg');
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.ui.basic.segment.container > .ui.basic.inverted.segment.login {
+    margin: 0;
+    width: 400px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-100%, 0);
+    top: 0;
+    left: 100%;
+}
+
+.ui.basic.segment.container > .ui.basic.segment.logo {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+}
+
+.ui.basic.segment.logo > .ui.basic.center.aligned.segment {
+    padding-top: 30px;
+}
+
+.ui.form {
+    padding-top: 30px;
+}

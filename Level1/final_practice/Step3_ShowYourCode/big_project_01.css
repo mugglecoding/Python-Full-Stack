@@ -1,0 +1,81 @@
+.ui.text.menu.masthead {
+    padding: 0 0 0 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ui.basic.vertical.inverted.red.segment.masthead {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ui.image.masthead {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.admin {
+    color: rgb(255, 255, 255);
+}
+
+.ui.basic.segment.card-view > .ui.segment.image {
+    width: 240px;
+    height: 200px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ui.segment.image > img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    object-position: top 75%;
+}
+
+.ui.basic.center.aligned.segment.card-view {
+    position: relative;
+    /*box-sizing: border-box;*/
+    /*height: 300px;*/
+    text-align: left;
+
+}
+
+.ui.basic.segment.card-view > .ui.header {
+    font-size: 18px;
+    margin: 0;
+}
+
+.ui.basic.segment.card-view > .sub.header {
+    color: rgb(176, 176, 176);
+}
+
+.ui.three.column.grid > .column {
+    position: relative;
+    margin: 0px;
+}
+
+.ui.three.item.menu {
+    margin-top: 40px;
+    width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.ui.three.column.grid {
+    width: 850px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.ui.two.item.menu {
+    width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 80px;
+}

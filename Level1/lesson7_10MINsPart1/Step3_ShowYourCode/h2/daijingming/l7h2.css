@@ -1,0 +1,61 @@
+.ui.basic.inverted.vertical.segment.masthead {
+    height: 200px;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;;
+}
+
+.ui.basic.inverted.vertical.segment.masthead > img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.ui.basic.inverted.vertical.segment.masthead > .ui.basic.center.aligned.segment {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.ui.basic.center.aligned.segment > .ui.inverted.header {
+    margin: 0;
+    font-size: 60px;
+}
+
+.ui.basic.segment.menu {
+    border-bottom: solid 1px;
+    border-color: rgb(201, 201, 201);
+    position: relative;
+    margin: 0;
+    padding: 3px 0px 3px 0px;
+}
+
+.ui.basic.segment.menu > .ui.text.menu {
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.ui.text.menu > .item {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ui.basic.segment.content {
+    width: 700px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.ui.basic.segment > .ui.header {
+    margin-bottom: 0;
+}
+
+.ui.basic.segment > .sub.header {
+    margin-bottom: 0;
+    color: rgb(140, 140, 140);
+}

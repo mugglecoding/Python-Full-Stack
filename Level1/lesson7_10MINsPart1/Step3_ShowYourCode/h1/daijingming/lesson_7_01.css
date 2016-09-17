@@ -1,0 +1,40 @@
+.ui.text.menu.masthead {
+    padding: 0 0 0 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ui.basic.vertical.inverted.red.segment.masthead {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ui.image.masthead {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.ui.vertical.basic.segment.banner {
+    background: url('Python-Full-Stack/Level1/lesson7_10MINsPart1/Step2_Practice/l7h2/images/detail.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+.content {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding-top: 20px;
+}
+
+.content > .sub.header {
+    color: rgb(154, 154, 154);
+}
+
+.admin {
+    color: rgb(255, 255, 255);
+}
