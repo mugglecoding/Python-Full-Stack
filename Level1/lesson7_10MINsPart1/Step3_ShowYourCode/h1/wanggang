@@ -1,0 +1,58 @@
+
+/*对红色菜单栏的内部元素位置微调，同时把菜单栏和下部图片之间的空隙消除。可是，应该如何把菜单栏的container的圆角变成直角呢？*/
+.ui.inverted.red.menu.container {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+/*调整 admin 和 logout 的位置和大小,如何调整字体的颜色呢？*/
+.user.icon.top {
+    color: white;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.ui.circular.inverted.red.button {
+    border: solid white 2px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+}
+
+/*Banner图片从CSS中添加，以便控制其规格*/
+.ui.vertical.basic.container {
+    height: 350px;
+    background: url("l7h2/images/detail.jpg");
+    background-size: cover;
+}
+
+
+/*文章题目和正文都更加居中*/
+.eight.wide.column.container {
+    padding:0 150px 0 150px;
+    position: relative;
+}
+
+/*标题和上部的图片，跟下部的正文都有一定的空白*/
+.ui.left.aligned.header {
+    margin-top: 40px
+}
+
+
+.article.details {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.article {
+    font-style: bold;
+    padding-top: 20px;
+}
+
+/*正文右下角的黑色button靠右，这个不需要更改重心*/
+
+.ui.black.circular.icon.button {
+    position: relative;
+    left:40%;
+    /*transform: translate(-50%,-50%);*/
+}
