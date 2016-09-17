@@ -41,3 +41,10 @@
   width: 80px;
   margin-top: 40px;
 }
+
+.menujuzhong {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 275px;
+  margin-bottom: 20px;
+}
