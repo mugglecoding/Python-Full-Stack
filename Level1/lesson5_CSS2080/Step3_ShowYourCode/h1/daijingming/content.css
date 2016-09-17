@@ -1,0 +1,48 @@
+.container {
+    /*快捷键cmd+shift+c*/
+    background-color: rgb(255, 255, 255);
+    /*内推*/
+    padding: 10px 10px 10px 10px;
+    /*左实线*/
+    border-left: solid 5px;
+    border-color: rgb(43, 190, 98);
+    /*自动计算*/
+    box-sizing: border-box;
+    width: 1000px;
+    /*设置下边距*/
+    margin-bottom: 10px;
+    /*左右居中*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    /*修改原margin*/
+    margin: 5px 0px 5px 0px;
+}
+
+.title {
+    font-size: 120%;
+    color: rgb(59, 107, 212);
+}
+
+.time {
+    font-size: 80%;
+    /*字间距*/
+    letter-spacing: -1px;
+    color: rgb(156, 156, 156);
+}
+
+.container_1 {
+    border-left: solid 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.container_2 {
+    border-left: solid 0px;
+    background-color: rgb(230, 230, 230);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
