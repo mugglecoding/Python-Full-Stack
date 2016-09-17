@@ -1,0 +1,27 @@
+.block-1 {
+    border: solid 5px rgb(234, 234, 234);
+    border-left: solid 3px green;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 5px 10px 5px 10px;
+    background: rgb(255, 255, 255);
+    width: 400px;
+}
+
+.block-2 {
+    border: solid 2px rgb(234, 234, 234);
+    margin:2px 5px 2px 5px;
+    padding: 5px 10px 5px 10px;
+    background: rgb(234, 234, 234);
+}
+
+.block-3 {
+    border: solid 2px rgb(234, 234, 234);
+    margin:2px 5px 2px 5px;
+    padding: 5px 10px 5px 10px;
+    background: rgb(255, 255, 255);
+}
+
+.block-4 {
+    background: rgb(234, 234, 234);
+}

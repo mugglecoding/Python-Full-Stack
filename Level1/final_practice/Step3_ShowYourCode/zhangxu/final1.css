@@ -1,0 +1,50 @@
+.ui.inverted.red.basic.menu {
+  padding: 5px 10px 5px 10px;
+  border-radius: 0;
+}
+
+.huisebeijing {
+  box-sizing: border-box;
+  background-color: rgb(234, 234, 234);
+  height: 1200px;
+}
+
+.ui.vertical.basic.segment {
+  box-sizing: border-box;
+  background-color: rgb(234, 234, 234);
+  margin: 0 auto;
+  width: 900px;
+  height: 1100px;
+}
+
+.ui.inverted.segment.card-view {
+  height: 200px;
+}
+
+.ui.card {
+  margin: 5px 5px 5px 5px;
+}
+
+.biaoti {
+  font-size: 22px;
+  margin: 5px 5px 5px 5px;
+}
+
+.huisewenzi {
+  font-size: 18px;
+  margin: 5px 5px 5px 5px;
+}
+
+.buttonjuzhong {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 80px;
+  margin-top: 40px;
+}
+
+.menujuzhong {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 275px;
+  margin-bottom: 20px;
+}

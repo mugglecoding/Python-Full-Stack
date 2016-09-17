@@ -1,0 +1,47 @@
+.zhengtibeijing {
+  background: url('images/super_blur_back2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 0;
+  height: 1000px;
+}
+
+.xiaohongkuang {
+  box-sizing: border-box;
+   height: 300px;
+   width: 480px;
+   margin: 0 auto;
+   background-color: rgb(255, 255, 255);
+}
+
+.hongbankuang {
+  height: 273px;
+}
+
+.shurukuang {
+  box-sizing: border-box;
+  border: solid 1px rgb(234, 234, 234);
+  height: 30px;
+  width: 300px;
+  padding: 2px 2px 2px 10px;
+  margin-top:25px;
+}
+.shurukuang1 {
+  box-sizing: border-box;
+  border: solid 1px rgb(234, 234, 234);
+  height: 30px;
+  width: 300px;
+  padding: 2px 2px 2px 10px;
+  margin-top:10px;
+}
+
+.kaoyou {
+  position: relative;
+  left: 400%;
+}
+
+.kaoyou1 {
+  position: relative;
+  left: 390%;
+  margin-top: 10px;
+}

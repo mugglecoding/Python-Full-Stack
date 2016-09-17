@@ -1,0 +1,49 @@
+.ui.vertical.basic.segment.masthead {
+    height: 400px;
+    background: url('images/detail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 0 0 0;
+}
+
+.wenzhang {
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    width: 600px;
+}
+
+.biaoti {
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: bold;
+    width: 600px;
+}
+
+.watch {
+    font-size: 20px;
+    color: rgb(226, 227, 228);
+    padding: 5px 0 5px 0;
+}
+
+.wenzhang1 {
+    border-bottom: solid 1px rgb(234, 234, 234);
+    padding: 5px 0 5px 0;
+}
+
+.yonghuming{
+    padding: 7px 0 0 0;
+    position: relative;
+    left:75%;
+}
+
+.yonghutouxiang{
+  padding: 7px 0 0 0;
+  position: relative;
+  left:70%;
+}
+
+.santubiao {
+  padding: 5px 0 5px 0;
+}
