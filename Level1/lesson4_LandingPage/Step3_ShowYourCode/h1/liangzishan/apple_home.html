@@ -6,8 +6,11 @@
         <title>Apple Home</title>
         <link rel="stylesheet" href="../../../../lesson3_semanticUI/Step1_Imitation/css/semantic.css" media="screen" title="no title">
         <style media="screen">
+            #TopMenu {border:0; background-color:#333; box-shadow:none;}
             #TopMenu > .image {height:44px; padding:0 10px 0 10px; margin:0 auto;}
+            #Promo {padding:0;}
             #Promo > .column {padding:1px;}
+            #Directory {background-color:#F2F2F2;}
             #Directory > .row {padding:0; margin:0 auto;}
             #Directory > .row > .column {padding:0;}
             .DirTitleFont {height:20px; font-size:10px; color:#333;}
@@ -16,12 +19,15 @@
         </style>
     </head>
     <body>
+
         <div class="ui vertical basic segment">
+
             <!-- Navigation -->
             <div class="ui centered grid" style="background-color:#333;">
+
                 <!-- TopMenu -->
-                <div class="fourteen wide column" style="padding:0; border:0; box-shadow:0 0;">
-                    <div id="TopMenu" class="ui menu" style="background-color:#333; border:0; box-shadow:0 0;">
+                <div class="fourteen wide column" style="padding:0; border:0; box-shadow:none;">
+                  <div id="TopMenu" class="ui menu">
                         <a href="#" class="image"><img src="images/image_large (1).png"></a>
                         <a href="#" class="image"><img src="images/image_large (2).png"></a>
                         <a href="#" class="image"><img src="images/image_large.png"></a>
@@ -38,28 +44,42 @@
 
             <!-- Heros -->
             <div class="ui centered grid">
+
                 <!-- Hot -->
-                <div class="row" style="padding:0;">
-                    <div class="four wide column" style="padding-top:50px;">
-                        <a href="#" class="ui image"><img src="images/iphone_6s_medium_2x.png" /></a>
+                <div class="row">
+                    <div class="four wide column" style="padding-top:20px;">
+                        <a href="#" class="ui image">
+                          <img src="images/iphone_6s_medium_2x.png" />
+                        </a>
                     </div>
-                    <div class="fourteen wide column" style="padding-top:50px;">
-                        <a href="#" class="ui image"><img src="images/iphone_6s_medium_2x.jpg" /></a>
+                    <div class="fourteen wide column" style="padding-top:40px;">
+                        <a href="#" class="ui image">
+                          <img src="images/iphone_6s_medium_2x.jpg" />
+                        </a>
                     </div>
                 </div>
+
                 <!-- Promo -->
-                <div id="Promo" class="two column row" style="padding:0;">
+                <div id="Promo" class="two column row">
                     <div class="column">
-                        <a href="#" class="ui image"><img src="images/whereisthelove_medium_2x.jpg" /></a>
+                        <a href="#" class="ui image">
+                          <img src="images/whereisthelove_medium_2x.jpg" />
+                        </a>
                     </div>
                     <div class="column">
-                        <a href="#" class="ui image"><img src="images/swift_playground_medium_2x.jpg" /></a>
+                        <a href="#" class="ui image">
+                          <img src="images/swift_playground_medium_2x.jpg" />
+                        </a>
                     </div>
                     <div class="column">
-                        <a href="#" class="ui image"><img src="images/accessories_medium_2x.jpg" /></a>
+                        <a href="#" class="ui image">
+                          <img src="images/accessories_medium_2x.jpg" />
+                        </a>
                     </div>
                     <div class="column">
-                        <a href="#" class="ui image"><img src="images/event_teaser_medium_2x.jpg" /></a>
+                        <a href="#" class="ui image">
+                          <img src="images/event_teaser_medium_2x.jpg" />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -76,7 +96,7 @@
                                 <span>
                                     Louisiana Flood and Central Italy Earthquake Relief
                                     <a href="#" style="margin:0 0 0 10px;">
-                                        Donate to help>>>
+                                      Donate to help>>>
                                     </a>
                                 </span>
                             </div>
@@ -86,14 +106,18 @@
             </div>
 
             <!-- Directory -->
-            <div id="Directory" class="ui centered grid" style="background-color:#F2F2F2;">
+            <div id="Directory" class="ui centered grid">
+
                 <!-- Links -->
                 <div class="row">
                     <div class="twelve wide column">
                         <div class="ui five column left aligned grid" style="padding-top:20px;">
+
                             <div class="column">
                                 <div class="ui link list">
-                                    <div class="active item"><span class="DirTitleFont">选购及了解</span></div>
+                                    <div class="active item">
+                                      <span class="DirTitleFont">选购及了解</span>
+                                    </div>
                                     <a class="item DirFont">Mac</a>
                                     <a class="item DirFont">iPad</a>
                                     <a class="item DirFont">iPhone</a>
@@ -104,9 +128,12 @@
                                     <a class="item DirFont">配件</a>
                                 </div>
                             </div>
+
                             <div class="column">
                                 <div class="ui link list">
-                                    <div class="active item"><span class="DirTitleFont">Apple Store 商店</span></div>
+                                    <div class="active item">
+                                      <span class="DirTitleFont">Apple Store 商店</span>
+                                    </div>
                                     <a class="item DirFont">查找零售店</a>
                                     <a class="item DirFont">Genius Bar 天才吧</a>
                                     <a class="item DirFont">讲座和学习</a>
@@ -119,34 +146,47 @@
                                     <a class="item DirFont">选购帮助</a>
                                 </div>
                             </div>
+
                             <div class="column">
                                 <div class="ui link list">
-                                    <div class="active item"><span class="DirTitleFont">教育应用</span></div>
+                                    <div class="active item">
+                                      <span class="DirTitleFont">教育应用</span>
+                                    </div>
                                     <a class="item DirFont">Apple 与教育</a>
                                     <a class="item DirFont">高校师生选购</a>
-                                    <a class="item DirFont"></a>
-                                    <div class="active item"><span class="DirTitleFont">商务应用</span></div>
+                                    <br>
+                                    <div class="active item">
+                                      <span class="DirTitleFont">商务应用</span>
+                                    </div>
                                     <a class="item DirFont">Apple 与商务</a>
                                     <a class="item DirFont">商务选购</a>
                                 </div>
                             </div>
+
                             <div class="column">
                                 <div class="ui link list">
-                                    <div class="active item"><span class="DirTitleFont">账户</span></div>
+                                    <div class="active item">
+                                      <span class="DirTitleFont">账户</span>
+                                    </div>
                                     <a class="item DirFont">管理你的 Apple ID</a>
                                     <a class="item DirFont">Apple Store 帐户</a>
                                     <a class="item DirFont">iCloud.com</a>
-                                    <a class="item DirFont"></a>
-                                    <div class="active item"><span class="DirTitleFont">Apple 价值观</span></div>
+                                    <br>
+                                    <div class="active item">
+                                      <span class="DirTitleFont">Apple 价值观</span>
+                                    </div>
                                     <a class="item DirFont">辅助功能</a>
                                     <a class="item DirFont">环境责任</a>
                                     <a class="item DirFont">隐私</a>
                                     <a class="item DirFont">供应商责任</a>
                                 </div>
                             </div>
+
                             <div class="column">
                                 <div class="ui link list">
-                                    <div class="active item"><span class="DirTitleFont">关于 Apple</span></div>
+                                    <div class="active item">
+                                      <span class="DirTitleFont">关于 Apple</span>
+                                    </div>
                                     <a class="item DirFont">Apple 资讯</a>
                                     <a class="item DirFont">工作机会</a>
                                     <a class="item DirFont">媒体资讯</a>
@@ -173,6 +213,7 @@
                         <div class="ui fitted divider"></div>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="four wide left aligned column">
                         <div class="ui horizontal divided list">
@@ -183,6 +224,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="five wide left aligned column">
                         <div class="ui horizontal divided list">
                             <div class="middle aligned item">
@@ -202,6 +244,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="three wide right aligned column">
                         <div class="ui horizontal list">
                             <div class="middle aligned item">
@@ -215,6 +258,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="twelve wide column" style="height:20px; margin:0 0 20px 0;">
                         <span class="InfoFont">
