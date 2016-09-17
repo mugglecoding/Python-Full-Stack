@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    background: url('../../../Step2_Practice/l8h1/images/super_blur_back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*height: 700px;*/
+}
+
+.ui.vertical.segment.content {
+    padding: 10px;
+    background: url('../../../Step2_Practice/l8h1/images/red_regi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 520px;
+    height: 350px;
+    position: relative;;
+    transform: translate(-50%,-50%);
+    top: 45%;
+    left: 50%;
+}
+
+p {
+    margin: 50px auto 10px 35px;
+    color: white;
+}
+
+.ui.image {
+    margin-left: 10px;
+}
+
+.ui.vertical.segment.login {
+    margin: 0px;
+    padding: 10px;
+    background-color: white;
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    transform: translate(-100%,-100%);
+    top: 100%;
+    left: 100%;
+}
+
+.ui.right.header {
+    margin-bottom: 50px;
+    color: red;
+}
+
+.ui.form {
+    margin-bottom: 10px;
+}
+
+button {
+    position: relative;
+    transform: translate(-100%,0);
+    left: 100%;
+}
