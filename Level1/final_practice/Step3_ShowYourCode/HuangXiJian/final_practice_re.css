@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+}
+
+.ui.inverted.red.vertical.segment.headmenu {
+    padding: 1px 20px;
+    margin: 0px;
+}
+
+.ui.inverted.red.vertical.segment.headmenu {
+    padding: 1px 20px;
+    margin: 0px;
+}
+
+.ui.inverted.text.menu {
+    margin: 5px;
+}
+
+.ui.image {
+    margin-top: 5px;
+}
+
+.icons {
+    background: rgb(0, 127, 197);
+}
+
+.admin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*.ui.menu:not(.vertical) .item>.button {
+    position: relative;
+    top: 0;
+    margin: -.5em 0;
+    padding-bottom: .78571429em;
+    padding-top: .78571429em;
+    font-size: 1em;
+}*/
+
+.ui.grey.three.item.borderless.menu {
+    width: 360px;
+    margin-top: 50px;
+    position: relative;
+    transform: translate(-50%, 0px);
+    left: 50%;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.ui.vertical.basic.segment.content {
+    width: 800px;
+    margin: auto;
+}
+
+.ui.segment.card {
+    height: 180px;
+    width: 230px;
+    margin: auto auto 50px;
+}
+
+.tittle {
+    font-size: 18px;
+    position: relative;
+    top: 105%;
+    margin: 0px;
+}
+
+span {
+    color: rgb(200, 200, 200);
+    font-size: 12px;
+    margin-top: 5px;
+    position: relative;
+    top: 100%;
+}
+
+.ui.two.item.menu {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 100px;
+    position: relative;
+    transform: translate(-50%, 0px);
+    left: 50%;
+}

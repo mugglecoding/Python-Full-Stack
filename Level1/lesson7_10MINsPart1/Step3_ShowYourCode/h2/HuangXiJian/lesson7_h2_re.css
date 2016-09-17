@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+}
+
+.ui.vertical.segment.banner {
+    box-sizing: border-box;
+    height: 700px;
+    width: 100%;
+    transform: translate(0px, -50%);
+    position: absolute;
+    background: url("../../../Step2_Practice/l7h1/images/star_banner.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ui.inverted.centered.aligned.header.tittle {
+    margin-bottom: 5px;
+    position: relative;
+    top: 400px;
+    font-size: 50px;
+}
+
+.ui.inverted.centered.aligned.header.subtittle {
+    margin-top: 5px;
+    position: relative;
+    top: 400px;
+    font-size: 6px;
+}
+
+.ui.vertical.segment.content {
+    padding-top: 5px;
+    background-color: white;
+    position: relative;
+    top: 300px;
+}
+
+.ui.three.item.text.menu {
+    width: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+.ui.container {
+    width: 700px;
+    margin: 30px auto 20px auto;
+}
+
+.ui.container > .ui.header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+span {
+    color: grey;
+    font-size: 12px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.ui.mini.tag.label {
+    color: grey;
+    /*padding: 10px;*/
+}
+
+.ui.inverted.vertical.very.padded.segment.footer {
+    position: relative;
+    top: 300px;
+}
