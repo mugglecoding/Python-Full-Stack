@@ -1,8 +1,9 @@
 .ui.vertical.basic.segment.header {
-    height: 300px;
+    height: 400px;
     box-sizing: border-box;
     background: url("images/star_banner.jpg");
     background-size: cover;
+    background-position:bottom;
     background-repeat: no-repeat;
 }
 
