@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>lesson8_h1_html</title>
+        <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title">
+        <link rel="stylesheet" href="lesson8_h1_css.css" media="screen" title="no title">
+    </head>
+    <body>
+        <div class="ui vertical container segment">
+            <!-- 登陆窗口分为两部分 -->
+            <div class="ui two column grid">
+
+                <!-- 左侧树栏是logo和回退箭头 -->
+                <div class="five wide column">
+                    <i class="angle left icon" style="color:white;"></i>
+                    <span>
+                        <p class="ui center aligned sub header" style="color:white;">
+                            Welcome to
+                        </p>
+                        <div class="ui centered image">
+                            <img src="l8h1/images/tenlogo.png" alt="" />
+                        </div>
+                    </span>
+                </div>
+
+                <!-- 右侧是注册和登陆框 -->
+                <div class="column">
+                    <p class="ui right top corner" style="color:red;">
+                        or LOGIN
+                    </p>
+
+                    <!-- 四个填选框 -->
+                    <form class="ui form" action="index.html" method="post">
+                        <div class="ui field">
+                            <input type="text" name="username" placeholder="username">
+                        </div>
+                        <div class="ui field">
+                            <input type="text" name="emailname" placeholder="yours@email.com">
+                        </div>
+                        <div class="ui field">
+                            <input type="text" name="password" placeholder="password">
+                        </div>
+                        <div class="ui field">
+                            <input type="text" name="password" placeholder="check password again">
+                        </div>
+                    </form>
+
+                    <!-- 完成Done按钮 -->
+                    <button type="button" name="button" class="ui circular inverted red button">Done</button>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
