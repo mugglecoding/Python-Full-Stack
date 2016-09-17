@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>lesson8_h2_html</title>
+        <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title">
+        <link rel="stylesheet" href="lesson8_h2_css.css" media="screen" title="no title">
+    </head>
+    <body>
+        <!-- 整体大的背景由两块segment组成,两块背景上放图片 -->
+        <!-- 上面的图片 -->
+        <div class="ui vertical basic segment top">
+            <div class="ui image">
+                <img src="l8h2/images/star_banner.jpg" alt="" />
+            </div>
+        </div>
+
+        <!-- 下面的图片 -->
+        <div class="ui vertical basic segment down">
+            <div class="ui image">
+                <img src="l8h2/images/star_banner.jpg" alt="" />
+            </div>
+        </div>
+
+
+
+        <!-- 这是上面白色部分文字那一大块 -->
+        <div class="ui raised segment container top">
+            <span>
+                <p class="ui left aligned header">
+                    This is a header is a header is a header
+                </p>
+                <p class="article">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </span>
+        </div>
+
+        <!-- 这是下面的评论区部分，包括user信息和评论留言区 -->
+        <div class="ui raised segment container down">
+            <div class="ui left aligned header">
+                Comment
+            </div>
+
+            <!-- 已评论的用户信息 -->
+            <div class="ui comments">
+                <div class="comment">
+                    <a class="avatar">
+                        <img src="l8h2/images/back.jpeg">
+                    </a>
+                    <div class="content">
+                        <a class="author">Stevie Feliciano</a>
+                        <div class="metadata">
+                            <div class="date">2 days ago</div>
+                        </div>
+                        <div class="text">
+                            Good article!!!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 底部评论区，填写姓名和评论 -->
+            <div class="ui form">
+                <div class="field">
+                    <label>Name</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="ui form">
+                <div class="field">
+                    <label>Comment</label>
+                    <textarea></textarea>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
