@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>tenMIN</title>
+    <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title" charset="utf-8">
+    <style media="screen">
+    .ui.vertical.basic.segment{
+    height: inherit;
+    background: url('images/super_blur_back2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+
+    .ui.vertical.basic.segment > .ui.vertical.basic.segment.insert{
+    background: url('images/red_regi.jpg');
+    background-repeat: no-repeat;
+    box-sizing: padding-box;
+    background-size:contain;
+    width: 700px;
+    height: 400px;
+    position:absolute;
+    top:25%;
+    left: 20%;
+
+    }
+
+    .four.wide.column{
+    position: relative;
+    top: 50px;
+
+    }
+
+
+    .backg{
+    background:white;
+    width: 510px;
+    height: 400px;
+    position: relative;
+    right: 11px;
+    bottom: 25px;
+    }
+
+    .ui.input{
+    width: 480px;
+    padding-left: 20px;
+    margin: 10px;
+    position: relative;
+    top: 35px;
+    }
+
+    .bg > .ui.header{
+    position: relative;
+    right: 20px;
+    }
+    .ui.red.circular.inverted.button{
+    position: relative;
+    top: 40px;
+    right: 20px;
+
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="ui vertical basic segment">
+        <div class="ui vertical basic segment insert">
+            <div class="ui padded grid">
+                <div class="four wide column" style="text-align:center">
+                    <h2 class="ui small inverted header">Welcome to</h2>
+                    <div class="ui image">
+                        <img src="images\tenlogo.png" alt="" />
+
+                    </div>
+
+                </div>
+                <div class="twelve wide column">
+                    <div class="backg">
+                      <div class="ui header" style="text-align:right">
+                        <h4 style="color:red;">or LOGIN</h4>
+                      </div>
+                      <div class="ui input">
+                      <input type="text" placeholder="Username">
+                      </div>
+                      <div class="ui input">
+                      <input type="text" placeholder="your@email.com">
+                      </div>
+                      <div class="ui input">
+                      <input type="text" placeholder="password">
+                      </div>
+                      <div class="ui input">
+                      <input type="text" placeholder="check password again">
+                      </div>
+                      <button type="button" name="button" class="ui red circular inverted button" style="float:right">Done</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
