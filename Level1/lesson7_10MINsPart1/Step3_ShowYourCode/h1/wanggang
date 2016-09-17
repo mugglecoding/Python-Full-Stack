@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lesson7_h1_html</title>
+        <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="lesson7_h1_CSS.css" media="screen" title="no title" charset="utf-8">
+    </head>
+
+    <!-- 说明，这是基础题，主要两个部分，上面是一个Banner图片和菜单，下面是居中的文章题目和正文 -->
+    <body>
+
+        <!-- 第一部分，Banner图片和菜单 -->
+        <!-- 红色横条的菜单栏 -->
+        <div class="ui inverted red menu container">
+            <div class="ui image">
+                <img src="l7h2/images/tenlogo.png" alt="" />
+            </div>
+            <div class="right menu">
+                <span class="user icon top">
+                    <i class="user icon"></i>
+                    admin
+                </span>
+                <button type="button" name="button" class="ui circular inverted button">Logout</button>
+            </div>
+        </div>
+
+
+        <!-- Banner图片 -->
+        <div class="ui vertical basic container">
+            <!-- <div class="ui image banner">
+                <img src="l7h2/images/detail.jpg" alt="" />
+            </div> -->
+        </div>
+
+
+        <!-- 文章题目和正文居中 -->
+        <div class="ui vertical basic segment">
+            <div class="ui grid">
+                <div class="four wide column">
+                </div>
+
+                <div class="eight wide column container">
+                    <h2 class="ui left aligned header">
+                        This ia a title This ia a title This ia a title
+                    </h2>
+                    <span class="article details">
+                        <i class="unhide icon"></i>Got it!
+                        <i class="checkmark icon"></i>4568 people got it.
+                    </span>
+                    <p class="article">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="ui divider"></div>
+                    <button type="button" name="button" class="ui icon button">
+                        <i class="checkmark icon"></i>
+                        Got it!</button>
+                    <button type="button" name="button" class="ui red icon button">
+                        <i class="mail icon"></i>
+                        Hmmmmmm
+                    </button>
+                    <button type="button" name="button" class="ui black circular icon button">
+                        <i class="save icon"></i>
+                        download
+                    </button>
+                </div>
+
+                <div class="four wide column">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
