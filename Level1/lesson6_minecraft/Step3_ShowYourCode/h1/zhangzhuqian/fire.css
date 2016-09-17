@@ -1,0 +1,10 @@
+.blockimage{
+    box-sizing: border-box;
+    width: 64px;
+    height: 64px;
+    background: url(images/brick.jpg);
+    background-size: contain;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
