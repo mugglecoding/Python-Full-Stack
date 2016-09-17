@@ -1,0 +1,27 @@
+.ui.vertical.segment.banner{
+    background: url('img/banner.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+.ui.image.column{
+    width: 400px;
+}
+.nine.wide.column>.sub.header{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.ui.vertical.inverted.segment.footer{
+    background-color: rgb(219, 219, 219);
+}
+.ui.vertical.text.menu{
+    color: rgb(85, 85, 85);
+
+}
+.four.column.row>.column{
+    margin: 0px;
+    padding: 0px;
+}

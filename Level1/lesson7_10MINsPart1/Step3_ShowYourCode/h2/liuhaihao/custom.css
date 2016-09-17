@@ -1,0 +1,14 @@
+.ui.vertical.basic.segment.banner{
+    background: url('images/star_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: bottom;
+}
+.ui.center.inverted.aligned.header{
+    position: relative;
+    top: 30%;
+}
+.ui.container.basic.segment{
+    width: 800px;
+}
