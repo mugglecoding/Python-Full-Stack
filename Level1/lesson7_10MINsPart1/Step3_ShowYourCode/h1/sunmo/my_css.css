@@ -1,5 +1,5 @@
-.ui.vertical.inverted.red.basic.padded.segment {
-    height: 100px;
+.ui.inverted.red.secondary.menu {
+    position: relative;
 }
 
 
@@ -8,6 +8,8 @@
     /*width: 300px;*/
     background: url('images/detail.jpg');
     background-size: cover;
+    position: relative;
+    /*top:100px;*/
 }
 
 .ui.vertical.basic.segment.text1 {
