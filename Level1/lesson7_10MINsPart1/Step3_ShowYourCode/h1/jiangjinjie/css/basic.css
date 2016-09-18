@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  background: url("../images/star_banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  height: 400px;
+}
+
+.center {
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+
+}
+
+.sub {
+  font-size:10px;
+  margin-top:0;
+  color:white
+}
+
+.menu {
+  width:500px;
+  margin:0 auto;
+}
+
+.content{
+  width: 800;
+  margin: 0 auto;
+  padding-top: 15px
+}
+
+.ui.header.margin {
+  margin: 0
+}
+
+.ui.text.container.boder{
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  padding-bottom: 15px;
+  padding-top: 10px;
+}

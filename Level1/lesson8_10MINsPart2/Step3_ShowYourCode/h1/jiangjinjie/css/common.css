@@ -1,0 +1,48 @@
+
+
+.main {
+  width: 700px;
+  margin:250px auto 0 auto;
+}
+
+.loginform {
+  height: 400px;
+}
+
+.left {
+  background: url("../images/red_regi.jpg");
+  background-size: cover;
+  background-position:60% center;
+  height: 100%;
+  width: 35%;
+  float: left;
+}
+.right {
+  background-color: white;
+  height: 100%;
+  width: 65%;
+  float: right;
+  position: relative;
+}
+
+#lefticon {
+  margin:15px;
+}
+
+.title {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.ui.header.login {
+  float: right;
+  margin: 10px;
+}
+
+#registerform {
+  width: 95%;
+  position: absolute;;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
