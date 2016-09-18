@@ -1,0 +1,61 @@
+
+/*设置大背景颜色为灰色*/
+.ui.very.padded.vertical.basic.segment {
+    background-color: rgb(226, 218, 223);
+    box-sizing: border-box;
+    width: 1100px;
+    height: 600px;
+    padding:2px 0 20px 50px;
+}
+
+/*设置segment 1*/
+.ui.vertical.basic.padded.segment.one {
+    background-color: white;
+    border-left:solid 5px green;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 90px;
+    margin-bottom: 5px;
+    margin-top: 1px;
+    padding: 0 0 5px 20px;
+
+}
+
+/*设置segment2*/
+.ui.vertical.basic.padded.segment.two {
+    background-color: white;
+    border-left: solid 5px green;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 440px;
+    padding: 0 0 0 20px;
+
+}
+
+/*设置segment2-1*/
+.ui.vertical.basic.padded.segment.twoone {
+    background-color: rgb(226,218,223);
+    box-sizing: border-box;
+    width: 950px;
+    height: 340px;
+    padding: 0 0 0 20px;
+}
+
+/*设置segment2-1-1*/
+.ui.basic.padded.segment.twooneone {
+    background-color: white;
+    box-sizing: border-box;
+    width: 900px;
+    height: 230px;
+    padding: 0 0 0 20px;
+}
+
+
+/*设置segment2-1-1-1*/
+.ui.basic.padded.segment.twooneoneone {
+    background-color: rgb(226,218,223);
+    box-sizing: border-box;
+    width: 850px;
+    height: 100px;
+    padding: 0 0 0 20px;
+}
