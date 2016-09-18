@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Article Page</title>
+    <link rel="stylesheet" href="../../../../lesson3_semanticUI/Step1_Imitation/css/semantic.css" media="screen" title="no title">
+    <style media="screen">
+      .ui.borderless.menu {
+        height: 44px;
+        margin-bottom: 0;
+        border: 0;
+        background-color: transparent;
+      }
+
+      .ui.right.menu {
+        border: 0;
+        box-shadow: none;
+        background-color: transparent;
+      }
+
+      .heros {
+        height: 240px;
+        background-size: cover;
+        background-image: url('../../../Step2_Practice/l7h2/images/detail.jpg');
+      }
+
+      .tenlogo {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translate(0,-50%);
+      }
+
+      .metadata {
+        font-size: 10px;
+        color: grey;
+      }
+    </style>
+  </head>
+
+    <body>
+
+      <!-- Menu -->
+      <div class="ui basic segment" style="padding:0; margin:0; background-color:#DB402B;">
+        <div class="ui borderless menu">
+
+          <!-- Logo -->
+          <div class="tenlogo">
+            <a href="#" class="ui image">
+              <img src="../../../Step2_Practice/l7h2/images/tenlogo.png" alt="" />
+            </a>
+          </div>
+
+          <!-- Sign up and sign in -->
+          <div class="ui right menu">
+            <div class="item" style="padding:10px;">
+              <button class="ui basic segment" style="color:white;">
+                <i class="sign in icon"></i>
+                Sign in
+              </button>
+            </div>
+            <div class="item" style="padding:10px;">
+              <button class="ui inverted circular compact basic button">
+                <i class="icon user"></i>
+                Sign up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero -->
+      <div class="heros"></div>
+
+      <!-- Article -->
+      <div class="ui centered grid" style="margin:0;">
+        <div class="eight wide column">
+
+          <!-- Content -->
+          <div class="ui basic segment" style="padding:0; margin:0;">
+
+            <h2>
+              Go to the profile of Washington Post
+              <div class="metadata">
+                <i class="unhide icon"></i>
+                <span>10K</span>
+                <span>&nbsp&nbsp|&nbsp&nbsp</span>
+                <i class="thumbs outline up icon"></i>
+                <span>6666 people like it</span>
+              </div>
+            </h2>
+
+            <article>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </article>
+          </div>
+
+          <div class="ui divider"></div>
+
+          <!-- Buttons -->
+          <div class="ui basic segment" style="padding:0; margin:0;">
+            <div class="ui horizontal list" style="width:100%; border:0; box-shadow:none;">
+              <div class="item" style="width:100%">
+
+                <div class="left floated content">
+                  <button class="ui mini compact button">
+                    <i class="thumbs outline up icon"></i>
+                    Like!
+                  </button>
+                  <button class="ui red mini compact button">
+                    <i class="google plus icon"></i>
+                    Google Plus
+                  </button>
+                </div>
+
+                <div class="right floated content">
+                  <button class="ui black mini compact button">
+                    <i class="pin icon"></i>
+                    Saved
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </body>
+
+</html>
