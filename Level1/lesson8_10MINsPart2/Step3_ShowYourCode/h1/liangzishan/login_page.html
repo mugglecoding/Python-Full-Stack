@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../../../../lesson3_semanticUI/Step1_Imitation/css/semantic.css" media="screen" title="no title">
+    <style media="screen">
+      .transform-center {
+        transform: translate(-50%,-50%);
+      }
+
+      .posit-center {
+        top:50%;
+        left:50%;
+      }
+
+      .ui.small.icon.fluid.input {
+        padding-top:20px;
+      }
+    </style>
+  </head>
+
+  <!-- Body with background-image -->
+  <body style="background-image:url('../../../Step2_Practice/l8h1/images/super_blur_back2.jpg'); background-size:cover;">
+
+    <!-- Main Dashboard -->
+    <div class="ui basic segment transform-center posit-center" style="position:absolute; width:60%; height:60%; padding:0; margin:0;">
+      <div class="ui grid" style="width:100%; height:100%; margin:0;">
+
+        <!-- Background and Logo -->
+        <div class="five wide column" style="padding:0; border-radius:10px 0 0 10px; background-image:url('../../../Step2_Practice/l8h1/images/red_regi.jpg'); background-size:cover;">
+          <div class="ui basic center aligned segment transform-center" style="position:absolute; width:90%; padding:0; margin:0; top:45%; left:50%;">
+            <h5>Welcome to</h5>
+            <div class="ui image">
+              <img src="../../../Step2_Practice/l8h1/images/tenlogo.png"/>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="eleven wide column" style="background-color:white; padding:0; border-radius:0 10px 10px 0;">
+          <div class="ui basic segment transform-center posit-center" style="position:absolute; margin:0; width:100%;">
+            <div class="ui small icon fluid input">
+              <input type="text" placeholder="Username">
+            </div>
+            <div class="ui small icon fluid input">
+              <input type="text" placeholder="Your@email.com">
+            </div>
+            <div class="ui small icon fluid input">
+              <input type="text" placeholder="Password">
+            </div>
+            <div class="ui small icon fluid input">
+              <input type="text" placeholder="Check password again">
+            </div>
+            <div class="ui right aligned basic segment" style="padding:20px 0 0 0; margin:0;">
+              <button class="ui inverted red circular button">
+                Done
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu -->
+      <div class="ui middle aligned divided list" style="position:absolute; width:100%; margin:0; top:20px;">
+        <div class="item" style="width:100%; padding:0 20px; border:0;">
+          <div class="left floated content">
+            <a href="#" style="color:white;">
+              <i class="large chevron left icon"></i>
+            </a>
+          </div>
+          <div class="right floated content">
+            <a href="#" style="color:red; font-size:18px;">
+              or LOGIN
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+
+</html>
