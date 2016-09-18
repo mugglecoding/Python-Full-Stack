@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lesson4_homework_h1_wanggang_Appleweb</title>
+        <link rel="stylesheet" href="/Users/mindseeker/Python-Full-Stack/Level1/lesson4_LandingPage/Step1_Imitation/css/semantic.css" media="screen" title="no title">
+    </head>
+    <!-- 作业要求是制作一个Apple官网首页的页面,页面基本分成5部分 -->
+    <body>
+
+        <!-- 第1部分：菜单栏 ,分成3部分 grid ，左右两侧都是 three width column ，中间部分使用 text menu 和 icon menu -->
+        <div class="ui inverted vertical segment">
+            <div class="ui equal width grid">
+                <div class="three width column">
+                    <div class="ui inverted vertical segment">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui inverted vertical segment">
+                        <div class="ui fluid inverted text menu">
+                            <div class="ui inverted icon menu">
+                                <a href="#" class="item">
+                                    <i class="big apple icon"></i>
+                                </a>
+                            </div>
+                            <a href="#" class="item">Mac</a>
+                            <a href="#" class="item">iPad</a>
+                            <a href="#" class="item">iPhone</a>
+                            <a href="#" class="item">Watch</a>
+                            <a href="#" class="item">Music</a>
+                            <a href="#" class="item">技术支持</a>
+                            <div class="ui inverted icon menu">
+                                <a href="#" class="item">
+                                    <i class="search icon"></i>
+                                </a>
+                                <a href="#" class="item">
+                                    <i class="tags icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="three width column">
+                    <div class="ui inverted vertical segment">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 第2部分：滚动图片广告 -->
+        <div class="ui vertical basic segment">
+            <div class="ui image">
+                <img src="/Users/mindseeker/Python-Full-Stack/Level1/lesson4_LandingPage/Step2_Practice/l4h1/img/banner.jpg" alt="" />
+            </div>
+            </div>
+        </div>
+
+
+        <!-- 第3部分：四张横向并列大小相同的图片，有链接 -->
+        <!-- grid和image，分成4份网格-->
+        <div class="ui vertical basic segment">
+            <div class="ui grid">
+                <div class="four wide column"，style="padding:0px,0px.0px">
+                    <div class="ui image">
+                        <img src="/Users/mindseeker/Python-Full-Stack/Level1/lesson4_LandingPage/Step2_Practice/l4h1/img/column1.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div class="four wide column"，style="padding:0px,0px.0px">
+                    <div class="ui image">
+                        <img src="/Users/mindseeker/Python-Full-Stack/Level1/lesson4_LandingPage/Step2_Practice/l4h1/img/column2.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div class="four wide column">
+                    <div class="ui image">
+                        <img src="/Users/mindseeker/Python-Full-Stack/Level1/lesson4_LandingPage/Step2_Practice/l4h1/img/column3.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div class="four wide column">
+                    <div class="ui image">
+                        <img src="/Users/mindseeker/Python-Full-Stack/Level1/lesson4_LandingPage/Step2_Practice/l4h1/img/column4.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- 第4部分 美国红十字标志 居中放置-->
+        <!-- 这里出现一个问题，就是center aligned segment中的内容为什么不居中？ -->
+        <div class="ui center aligned segmengt">
+            <div class="ui small image">
+                <img src="/Users/mindseeker/Python-Full-Stack/Level1/lesson4_LandingPage/Step2_Practice/l4h1/img/redcross_banner_large_2x.jpg" alt="" />
+            </div>
+            Louisiana Flood and Central Italy Earthquake Relief
+            <a href="#">
+                Donate to help
+                <i class="angle right icon"></i>
+            </a>
+        </div>
+
+
+
+        <!--第5部分 网页脚部信息 -->
+        <!-- 背景的灰色使用 tertiary segment 就可以解决 -->
+        <!-- 5列菜单栏 -->
+        <div class="ui vertical basic tertiary segment">
+            <div class="ui equal width grid">
+                <!-- 最左侧列空白，或者说留空 -->
+                <div class="three width column">
+                </div>
+                <div class="column">
+                    <div class="ui vertical text menu">
+                        <div class="left header item">选购及了解</div>
+                        <a href="#" class="left item">Mac</a>
+                        <a href="#" class="left item">iPad</a>
+                        <a href="#" class="left item">iPhone</a>
+                        <a href="#" class="left item">Watch</a>
+                        <a href="#" class="left item">Music</a>
+                        <a href="#" class="left item">iTunes</a>
+                        <a href="#" class="left item">iPod</a>
+                        <a href="#" class="left item">配件</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui vertical text menu">
+                        <div class="left header item">Apple store 商店</div>
+                        <a href="#" class="left item">查找零售店</a>
+                        <a href="#" class="left item">iPad 天才吧</a>
+                        <a href="#" class="left item">讲座和学习</a>
+                        <a href="#" class="left item">青少年活动</a>
+                        <a href="#" class="left item">Apple Store App</a>
+                        <a href="#" class="left item">翻新产品</a>
+                        <a href="#" class="left item">分期付款</a>
+                        <a href="#" class="left item">重复使用和循环利用</a>
+                        <a href="#" class="left item">订单状态</a>
+                        <a href="#" class="left item">选购帮助</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui vertical text menu">
+                        <div class="left header item">教育应用</div>
+                        <a href="#" class="left item">Mac</a>
+                        <a href="#" class="left item">高校师生选购</a>
+                        <div class="left header item">商务应用</div>
+                        <a href="#" class="left item">Apple 与商务</a>
+                        <a href="#" class="left item">商务选购</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui vertical text menu">
+                        <div class="left header item">账户</div>
+                        <a href="#" class="left item">管理你的App ID</a>
+                        <a href="#" class="left item">iPad</a>
+                        <a href="#" class="left item">iPhone</a>
+                        <div class="left header item">Apple 价值观</div>
+                        <a href="#" class="left item">管理你的App ID</a>
+                        <a href="#" class="left item">iPad</a>
+                        <a href="#" class="left item">iPhone</a>
+                        <a href="#" class="left item">供应商责任</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui vertical text menu">
+                        <div class="left header item">关于 Apple</div>
+                        <a href="#" class="left item">Apple 咨讯</a>
+                        <a href="#" class="left item">工作机会</a>
+                        <a href="#" class="left item">iPhone</a>
+                        <a href="#" class="left item">Watch</a>
+                        <a href="#" class="left item">联系 Apple</a>
+                    </div>
+                </div>
+                <!-- 最右侧列空白，或者说留空 -->
+                <div class="three width column">
+                </div>
+            </div>
+
+
+            <!-- 更多选购方式 这一行文字 -->
+            <div class="ui grid">
+                <div class="ui two column row">
+                    <div class="three wide column">
+                    </div>
+                    <div class="column">
+                        <p>
+                        更多选购方式：前往 <a href="#">Apple Store 零售店</a>，致电 400-666-8800 或查找在你附近的<a href="#">授权经销商</a>。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 中间的分割线 -->
+                <div class="ui fitted divider"></div>
+
+                <!-- 保留权利 隐私政策 美国国旗一行 -->
+                <div class="ui five column row">
+                    <div class="three wide column">
+                    </div>
+                    <div class="column">
+                        Copyright ®️ 2016 Apple Inc 保留所有权利。
+                    </div>
+                    <div class="column">
+                        <div class="ui five column divided grid">
+                            <div class="column">
+                                <a href="#">隐私政策</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">隐私政策</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">隐私政策</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">隐私政策</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">隐私政策</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right floated one wide column">
+                        <div class="ui right tiny image">
+                            <img src="/Users/mindseeker/Python-Full-Stack/Level1/lesson4_LandingPage/Step2_Practice/l4h1/img/America.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="left floated one wide column">
+                        United States
+                    </div>
+                </div>
+
+
+                <div class="ui two column row">
+                    <div class="three wide column">
+                    </div>
+                    <div class="column">
+                        <p>
+                        京公安网安备 11010502008968 京ICP备10214630
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

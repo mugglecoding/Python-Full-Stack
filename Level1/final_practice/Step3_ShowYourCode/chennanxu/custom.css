@@ -1,0 +1,36 @@
+.title {
+    box-sizing: border-box;
+    background: rgb(237, 76, 66);
+    width: inherit;
+    height: 50px;
+    position: relative;
+}
+
+.ui.three.item.menu {
+    box-sizing: border-box;
+    position: relative;
+    width: 600px;
+    left: 50%;
+    top:80px;
+    transform: translate(-50%,0);
+}
+
+.contents{
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.ui.two.item.menu {
+    box-sizing: border-box;
+    width: 100px;
+    position: absolute;
+    top:160%;
+    left: 50%;
+}
+
+.contenimg {
+    height: 50px;
+    object-fit: cover;
+}

@@ -1,0 +1,69 @@
+body{
+    background: url(images/star_banner.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+.ui.very.padded.segment.mm{
+    margin-top：100px;
+    border-radius：5px;
+
+    background-color: white;
+    width: 512px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,0);
+}
+
+body>.ui.very.padded.segment.container.hh{
+
+    background-color: white;
+    width: 512px;
+    height: 480px;
+    position: absolute;
+    left: 50%;
+    top: 112%;
+    transform: translate(-50%,0);
+}
+
+.ui.header.wenhao{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ui.input.no1{
+    width: 450px;
+}
+
+.ui.input.no2{
+    width: 450px;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+
+.ui.text.menu.kk{
+    position: relative;;
+}
+.ui.header.second{
+    font-size: 16px;
+    position: absolute;
+    color: grey;
+    left: 30%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+
+}
+
+.ui.header.short{
+    position: relative;
+    bottom: 12px;
+
+}

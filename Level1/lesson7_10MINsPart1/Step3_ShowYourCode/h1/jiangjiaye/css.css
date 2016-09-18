@@ -1,0 +1,50 @@
+.ui.vertical.basic.segment.head{
+height: 550px;
+background: url('images/detail.jpg') no-repeat;
+background-size: cover;
+
+}
+.ui.center.aligned.mytext{
+  padding: 0px;
+  margin-top: 8%;
+  color: white;
+
+}
+.ui.inverted.circular.button{
+  width: 120px;
+  height: inherit;
+  margin-left:25px;
+
+}
+
+.ui.inverted.fixed.colorr.menu{
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(255, 38, 0);
+}
+.ui.logo.image{
+padding-top: 10px;
+
+}
+.checkmark.icon.icon_s{
+ margin-left: 25px;
+ width: inherit;
+}
+.ui.basic.center.aligned.segment.wow{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10px;
+  position: relative;
+  text-align:left;
+}
+.ui.basic.segment.icon{
+  padding-left: 0;
+}
+.ui.basic.segment.icontitle{
+padding: 0px;
+margin: 0px;
+font-weight: bolder;
+}
+.ui.basic.segment.icon{
+  color: grey;
+}

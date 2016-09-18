@@ -1,0 +1,31 @@
+.ui.segment.fan{
+    background: url('images/star_banner.jpg');
+    background-size:contain;
+    height:230%;
+}
+.ui.segment.meng{
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.ui.segment.hu{
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,0);
+}
+.ui.input.xue{
+    width:510px;
+}
+.ui.input.song{
+    width:510px;
+    height: 200px;
+}
+.user.icon{
+    position:relative;;
+    top: 15px;
+    left: 28px;
+    transform: translate(-50%,0);
+}

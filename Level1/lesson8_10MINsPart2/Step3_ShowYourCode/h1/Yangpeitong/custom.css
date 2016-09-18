@@ -1,0 +1,17 @@
+
+body {
+    background: url('images/banner.jpg');
+    background-size:cover;
+    width: 50%;
+    margin: auto;
+}
+
+.ui.basic.segment.article {
+    background-color: white;
+}
+
+.ui.basic.segment.comments {
+    background-color: white;
+    margin-top: 0;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lesson4_homework_h2_wanggang_WinStylePhontoWall</title>
+        <link rel="stylesheet" href="/Users/mindseeker/Python-Full-Stack/Level1/lesson4_LandingPage/Step1_Imitation/css/semantic.css" media="screen" title="no title">
+    </head>
+    <body>
+        <!-- 项目要求是做一个类似Win10桌面风格的图片墙壁，我的思路是使用 grid icon 和 borderless menu-->
+        <!-- 总的背景segment设置为blue颜色 -->
+        <div class="ui inverted vertical blue segment">
+
+            <!-- 1-1:第一行，整体分成3个column，并且保证水平上的Gutter -->
+            <div class="ui center aligned three column horizontally padded grid">
+                <!-- 1-2:设置第一行头两个小方块，store和game -->
+                <div class="column">
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <div class="ui vertical inverted teal segment">
+                                    <div class="big ui icon">
+                                        <i class="big users icon"></i>
+                                    </div>
+                                    <div class="ui borderless inverted teal menu">
+                                        <a href="#" class="item">Store</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="ui vertical inverted green segment">
+                                    <div class="ui icon">
+                                        <i class="big users icon"></i>
+                                    </div>
+                                    <div class="ui borderless inverted green menu">
+                                        <a href="#" class="item">Game</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 1-3:设置橘色的friends方块 -->
+                    <div class="column">
+                        <div class="ui inverted orange vertical segment">
+                            <div class="ui icon">
+                                <i class="icon big users"></i>
+                            </div>
+                            <div class="ui borderless inverted orange menu">
+                                <a href="#" class="item">Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 1-4:设置第一行最后一块weather方块 -->
+                    <div class="column">
+                        <div class="ui inverted teal vertical segment">
+                            <div class="ui icon">
+                                <i class="big users icon"></i>
+                            </div>
+                            <div class="ui borderless inverted teal menu">
+                                <a href="#" class="item">Weather</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- 2-1:第一行，整体分成3个column，并且保证水平上的Gutter -->
+            <div class="ui center aligned three column horizontally padded grid">
+                <!-- 2-2:设置第一行头两个小方块，store和game -->
+                <div class="column">
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <div class="ui vertical inverted teal segment">
+                                    <div class="big ui icon">
+                                        <i class="big users icon"></i>
+                                    </div>
+                                    <div class="ui borderless inverted teal menu">
+                                        <a href="#" class="item">Store</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="ui vertical inverted green segment">
+                                    <div class="ui icon">
+                                        <i class="big users icon"></i>
+                                    </div>
+                                    <div class="ui borderless inverted green menu">
+                                        <a href="#" class="item">Game</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2-3:设置橘色的friends方块 -->
+                    <div class="column">
+                        <div class="ui inverted orange vertical segment">
+                            <div class="ui icon">
+                                <i class="big users icon"></i>
+                            </div>
+                            <div class="ui borderless inverted orange menu">
+                                <a href="#" class="item">Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2-4:设置第一行最后一块weather方块 -->
+                    <div class="column">
+                        <div class="ui inverted green vertical segment">
+                            <div class="ui icon">
+                                <i class="big users icon"></i>
+                            </div>
+                            <div class="ui borderless inverted green menu">
+                                <a href="#" class="item">Weather</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- 3-1:第一行，整体分成3个column，并且保证水平上的Gutter -->
+            <div class="ui center aligned three column horizontally padded grid">
+                    <!-- 3-2:设置橘色的friends方块 -->
+                    <div class="column">
+                        <div class="ui inverted orange vertical segment">
+                            <div class="ui icon">
+                                <i class="big users icon"></i>
+                            </div>
+                            <div class="ui borderless inverted orange menu">
+                                <a href="#" class="item">Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3-3:设置第一行最后一块weather方块 -->
+                    <div class="column">
+                        <div class="ui inverted green vertical segment">
+                            <div class="ui icon">
+                                <i class="big users icon"></i>
+                            </div>
+                            <div class="ui borderless inverted green menu">
+                                <a href="#" class="item">Weather</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3-4:设置第一行头两个小方块，store和game -->
+                    <div class="column">
+                            <div class="ui two column grid">
+                                <div class="column">
+                                    <div class="ui vertical inverted teal segment">
+                                        <div class="big ui icon">
+                                            <i class="big users icon"></i>
+                                        </div>
+                                        <div class="ui borderless inverted teal menu">
+                                            <a href="#" class="item">Store</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="ui vertical inverted green segment">
+                                        <div class="ui icon">
+                                            <i class="big users icon"></i>
+                                        </div>
+                                        <div class="ui borderless inverted green menu">
+                                            <a href="#" class="item">Game</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+.ui.bg.segment{
+    background: url('../../../Step2_Practice/l8h2/images/star_banner.jpg');
+    background-size: contain;;
+    max-width: 1000px;
+
+}
+
+.ui.contain.padded.segment.txet{
+    margin: 0 20% 10px 20%;
+}

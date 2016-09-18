@@ -1,0 +1,25 @@
+.ui.vertical.basic.segment.masthead{
+    height: 300px;
+    background: url('images/detail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.ui.text.menu.top {
+    background-color: red;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    height: 30px;
+}
+
+.ui.vertical.basic.segment.article {
+    margin: auto;
+    width: 350px;
+    padding: 10px 0 50px 0;
+}
+
+.ui.mini.black.circular.button {
+    position: absolute;
+    right: 0;
+}

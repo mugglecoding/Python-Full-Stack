@@ -1,0 +1,41 @@
+.ui.basic.segment.login {
+    box-sizing: border-box;
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background: url("images/red_regi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:150px;
+    margin-top: 10px;
+}
+
+.ui.basic.segment.logform {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 400px;
+    width:470px;
+    background: white;
+}
+
+.input {
+    width: 450px;
+    margin-top: 10px;
+}
+
+.ui.inverted.circular.red.button {
+    margin: 15px;
+    position: absolute;
+    left: 80%;
+}
