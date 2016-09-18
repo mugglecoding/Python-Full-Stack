@@ -1,0 +1,38 @@
+.ui.vertical.segment{
+    padding:0;
+    margin:0;
+}
+.ui.basic.segment.hu{
+    width: 800px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.ui.image{
+    background:url(images/star_banner.jpg);
+    background-size:1500px 300px;
+    height: 300px;
+    width: 1500px;
+}
+.ui.vertical.segment.xue{
+    position: relative;
+    top:20%;
+}
+.ui.inverted.centered.header{
+    font-size: 50px;
+}
+
+.dante{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.ui.dropdown.active.item{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.one{
+    color:gray;
+    font-size: 40%;
+}
