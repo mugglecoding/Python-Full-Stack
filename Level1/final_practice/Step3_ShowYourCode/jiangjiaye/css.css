@@ -1,0 +1,107 @@
+
+.ui.inverted.fixed.colorr.menu{
+    background-color: rgb(232, 35, 35);
+    padding: 3px;
+    height: auto;
+    position: relative;
+}
+.ui.image.c{
+  padding-left: 5px;
+  padding-top: 2px;
+}
+.bg{
+  background-color: rgb(219, 219, 219);
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+.ui.mytext{
+  color: white;
+  padding: 15px;
+}
+.ui.fluid.card{
+  display: inline;
+}
+.ui.inverted.circular.button.c{
+  margin-right: 10px;
+}
+.middleMENU{
+  margin-bottom: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 25px;
+
+}
+.ui.three.item.menu > .item{
+  background-color:rgb(233, 233, 233);
+  color: grey;
+}
+.ui.three.item.menu > .active.item{
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  font-size: 15 px;
+}
+
+  .ui.basic.segment.icon{
+    padding-left: 0;
+    margin: 0;
+    padding-top: 0;
+  }
+  .checkmark.icon.icon_s{
+   margin-left: 25px;
+   width: inherit;
+  }
+  .ui.basic.segment.icon{
+    color: grey;
+  }
+  .card{
+    display: inline;
+  }
+#up{
+  width: 250px;
+  height: 200px;
+}
+#up > img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+#content{
+  border: 0;
+  padding-left: 0;
+}
+#column{
+  margin: 0;
+
+}
+
+.ui.three.column.grid.c{
+  width:900px;
+  position: relative;
+  transform: translate(-50%,0);
+  left: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.ui.icon.buttons{
+  position: relative;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  margin-top: 30px;
+}
+#button1{
+  width: 50px;
+  background-color: white;
+  border: 0;
+  box-shadow: 0 0 3px #888888;
+}
+#button{
+  color: rgb(232, 35, 35);
+}

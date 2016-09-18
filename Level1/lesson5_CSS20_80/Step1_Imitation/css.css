@@ -1,0 +1,38 @@
+body{
+   background-color:rgb(210, 205, 213);
+}
+.username{
+  color: blue;
+  font-size: 17px;
+  margin: auto;
+  display: inline;
+
+}
+.time{
+  display: inline;
+  font-size: 12px;
+  color:rgb(182, 182, 182);
+}
+.text{
+  margin: 3px 3px 3px 0px;
+}
+.block-1{
+  border-left: solid 2px green ;
+  padding:5px 15px 5px 15px ;
+  background-color: white;
+  margin: 5px 0px 3px 0px ;
+
+}
+.block-2{
+  padding:5px 15px 3px 15px ;
+  background-color: white;
+  margin: 5px 0px 0px 0px ;
+  background-color: grey;
+}
+.block-3{
+  padding:5px 15px 5px 15px ;
+  background-color: white;
+  margin: 5px 0px 0px 0px ;
+  border: white;
+
+}
