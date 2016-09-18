@@ -1,0 +1,31 @@
+.ui.bg.segment{
+    background:url('../../../Step2_Practice/l8h1/images/super_blur_back2.jpg');
+    background-size: cover;
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    padding: 0;
+    border-radius: 0px;
+}
+
+.ui.bg2.segment{
+    background:url('../../../Step2_Practice/l8h1/images/red_regi.jpg');
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    padding: 0;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+    border: none;
+}
+
+.ui.bg3.segment{
+    background: white;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 200px;
+    padding: 0;
+}

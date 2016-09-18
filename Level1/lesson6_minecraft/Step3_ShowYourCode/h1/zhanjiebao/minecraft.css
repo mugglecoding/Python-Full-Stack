@@ -1,0 +1,70 @@
+.bg{
+    position: absolute;
+}
+.brick{
+    height:384px;
+    width: 640px;
+    background: url('../../../Step2_Practice/l6h1/images/brick.jpg');
+    box-sizing: border-box;
+    background-size:64px 64px;
+
+}
+.cobble_stone{
+    height:192px;
+    width: 256px;
+    background: url('../../../Step2_Practice/l6h1/images/cobble_stone.png');
+    box-sizing: border-box;
+    background-size:64px 64px;
+    position: absolute;
+    transform: translate(-50%,0);
+    left: 50%;
+
+}
+.stonebrick{
+    height:192px;
+    width: 256px;
+    background: url('../../../Step2_Practice/l6h1/images/stonebrick.png');
+    box-sizing: border-box;
+    background-size:64px 64px;
+    position: absolute;
+    transform: translate(-50%,0);
+    left: 50%;
+    top:50%;
+
+}
+
+.inner_cobble_stone{
+    height:128px;
+    width: 128px;
+    background: url('../../../Step2_Practice/l6h1/images/inner_cobble_stone.png');
+    box-sizing: border-box;
+    background-size:64px 64px;
+    position: absolute;
+    transform: translate(-50%,-100%);
+    left: 50%;
+    top:100%;
+}
+
+.har{
+    height:128px;
+    width: 128px;
+    background: url('../../../Step2_Practice/l6h1/images/har.gif');
+    box-sizing: border-box;
+    background-size:contain;
+    position: absolute;
+    transform: translate(-50%,-100%);
+    left: 50%;
+    top:100%;
+}
+
+.iron_bars{
+    height:64px;
+    width: 128px;
+    background: url('../../../Step2_Practice/l6h1/images/iron_bars.png');
+    box-sizing: border-box;
+    background-size:contain;
+    position: absolute;
+    transform: translate(-50%,-100%);
+    left: 50%;
+    top:100%;
+}
