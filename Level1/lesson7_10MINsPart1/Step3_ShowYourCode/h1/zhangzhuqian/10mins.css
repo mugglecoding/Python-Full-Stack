@@ -1,0 +1,11 @@
+.ui.blue.inverted.segment.masthead{
+    box-sizing: border-box;
+    padding: inherit;
+}
+
+.ui.basic.fixed.segment.slogan{
+    background: url(images/detail.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
