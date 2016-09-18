@@ -1,0 +1,49 @@
+
+body {
+    background: url('images/bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.ui.horizontal.basic.segments {
+    width: 425px;
+    height: 300px;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+}
+
+.ui.inverted.red.basic.segment.left {
+    width: 150px;
+    opacity: 0.8;
+}
+
+.ui.basic.segment.right {
+    width: 275px;
+    background-color: white;
+}
+
+.inverted.white.angle.left.icon {
+    position: absolute;
+    top:5px;
+    left:5px;
+}
+
+.ui.horizontal.basic.segments >.ui.basic.segment.right
+ > a {
+     position: absolute;
+     top:5px;
+     left:210px;
+     color: red;
+ }
+
+ .ui.horizontal.basic.segments >.ui.basic.segment
+  > form {
+      width: 250px;
+      height: 200px;
+      position: absolute;
+      top:50px;
+  }

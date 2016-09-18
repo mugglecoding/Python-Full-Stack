@@ -1,0 +1,83 @@
+
+.ui.basic.vertical.segment{
+    height: 300px;
+    background: url('images/detail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.ui.basic.very.padded.segment{
+
+    width: 512px;
+    height: 256px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+
+body{
+    margin: 0;
+}
+
+
+.img {
+  border: white solid 2px;
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(10, 125, 231);
+  text-align: center;
+
+}
+
+
+.ui.red.circular.button {
+    width: 220px;
+}
+
+.ui.header.logo {
+    font-size: 30px;
+    color: rgb(196, 196, 196);
+}
+
+.ui.inverted.segment.card-view {
+    height: 220px;
+    border: 2px solid rgb(229, 229, 238);
+
+
+}
+
+
+.ui.buttons.upp{
+    border: solid rgb(229, 229, 238) 1px;
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.ui.vertical.basic.segment.recommended{
+    position: absolute;
+    top:50%;
+    left: 15%;
+    transform: translate(0,-50%);
+    width: 900px;
+}
+
+
+.ui.button.kk{
+    border: 1px solid rgb(178, 178, 189) ;
+}
+
+.ui.buttons.down{
+    border: 1px solid rgb(178, 178, 189);
+    position:  absolute;
+    position: absolute;
+    top:200%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 20px;
+}

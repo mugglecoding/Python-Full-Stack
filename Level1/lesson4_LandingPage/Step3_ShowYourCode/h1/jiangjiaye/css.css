@@ -1,0 +1,48 @@
+.ui.ten.item.inverted.menu.c{
+ border-radius:0px;
+}
+.one.column.row{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.ui.image.c{
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+}
+.ui.small.image{
+  display: inline;
+}
+.ui.padded{
+  display: inline;
+  margin-left: 50px;
+}
+.ui.basic.segment.c{
+  background-color:rgb(211, 215, 205);
+}
+.ui.sixteen.wide.column.c{
+  margin-bottom: 15px;
+}
+.ui.grid.c{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.grey.font{
+  color: grey;
+  font-size: 11px;
+}
+.grey.font.c{
+  margin-right: 20px;
+  margin-left: 0;
+  padding: 0;
+}
+#ubs{
+  margin-left: 20%;
+}
+#di{
+  margin-left: 0;
+  padding: 0;
+}

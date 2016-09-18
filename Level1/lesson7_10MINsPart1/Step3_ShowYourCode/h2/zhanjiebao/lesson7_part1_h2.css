@@ -1,0 +1,20 @@
+.ui.bg.segment{
+   background: url('../../../Step2_Practice/l7h2/images/detail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    height:300px;
+    padding: 0;
+    position: relative;
+    transform: translate(-50%,0);
+    left:50%;
+
+}
+
+.ui.basic.segment.body{
+    max-width: 600px;
+    position: relative;
+    transform: translate(-50%,0);
+    left:50%;
+
+}

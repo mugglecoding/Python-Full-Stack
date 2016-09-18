@@ -1,0 +1,31 @@
+.ui.inverted.segment.bg {
+    height: 700px;
+    background: url('images/super_blur_back2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#all {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+#left_seg {
+    background: url('images/red_regi.jpg');
+    width: 150px;
+    height: 350px;
+    float: left;
+    /*position: relative;*/
+    /*transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;*/
+}
+
+#right_seg {
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    float: left;
+}

@@ -1,0 +1,61 @@
+body{
+ background: url('images/bg.jpg');
+  background-size: cover;
+}
+.ui.horizontal.segments.c{
+    position: absolute;
+    border: solid 0px;
+    height: 450px;
+    width: 700px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+}
+
+.ui.red.inverted.segment.c{
+  background: url('images/red_regi.jpg');
+  background-size:cover;
+  width: 30%;
+}
+.angle.left.icon.c{
+  color: white;
+}
+.ui.center.aligned.header.c{
+  font-weight: lighter;
+  margin-bottom: 0;
+  margin-top: 35%;
+  padding: 0;
+  font-size: 14px;
+}
+.ui.center.aligned.very.big.header.c{
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+.ui.vertical.segment.c{
+  width: 70%;
+}
+
+.ui.input{
+  position: relative;
+  width: auto;
+  display: block;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.ui.circular.inverted.red.button{
+  position: relative;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right;
+}
+.ui.red.header{
+  text-align: right;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom:50px;
+}

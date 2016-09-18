@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sui</title>
+        <link rel="stylesheet" href="lesson3/css/semantic.css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+
+        <!-- 方法一：用了 label 和 icon ，但是当加入 star icon 之后，图片出现变形，这需要进行修改——即参考方法二，把中间蓝色部分改为segment -->
+        <div class="ui very massive red circular label">
+            <div class="ui very huge white circular label">
+                <div class="ui very big red circular label">
+                        <div class="ui circular inverted blue segment">
+                            <i class="ui big star icon"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 方法二：使用segment，这就是阅读文档的好处！！ -->
+        <div class="ui inverted red circular segment">
+            <div class="ui circular segment">
+                <div class="ui inverted red circular segment">
+                    <div class="ui inverted blue circular segment">
+                        <i class="ui big star icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 方法三：使用icons方法 。注意：我在最外层使用div，是不可以的，这样出现的效果是所有的icon从左到右排列-->
+        <i class="huge icons">
+            <i class="huge thin red circle icon"></i>
+            <i class="big inverted circle icon"></i>
+            <i class="big red circle icon"></i>
+            <i class="blue circle icon"></i>
+            <i class="inverted tiny star icon"></i>
+        </i>
+
+
+    </body>
+</html>

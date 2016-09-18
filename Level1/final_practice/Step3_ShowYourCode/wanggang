@@ -1,0 +1,45 @@
+
+/*对红色菜单栏的内部元素位置微调，同时把菜单栏和下部图片之间的空隙消除。可是，应该如何把菜单栏的container的圆角变成直角呢？我对于调整这个菜单栏还是有些疑问，要加一个segment？*/
+.ui.inverted.red.menu {
+    padding: 0 10px 0 10px;
+}
+
+/*调整 admin 和 logout 的位置和大小,如何调整字体的颜色呢？*/
+.user.icon.top {
+    color: white;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.ui.circular.inverted.red.button {
+    border: solid white 2px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+}
+
+
+/*调整菜单按钮的颜色，但是没有成功，为什么为什么？*/
+.item {
+    background: grey;
+}
+
+.active.item {
+    background: white;
+}
+
+
+/*调整图片底部题目和阅读人数信息两行文字的间距*/
+.ui.left.aligned.header {
+    margin-bottom: 2px;
+}
+
+
+/*页面底部左右翻页的箭头按钮居中，然后调整颜色，但是颜色不变？？？*/
+.ui.icon.buttons {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: white;
+    left:48%;
+    position: relative;
+}

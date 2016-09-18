@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Bloger</title>
+    <link rel="stylesheet" href="../../../../lesson3_semanticUI/Step1_Imitation/css/semantic.css" media="screen" title="no title" charset="utf-8">
+    <style media="screen">
+      .title {
+        margin-bottom: 0;
+      }
+
+      .metadata {
+        font-size:10px;
+        color:grey;
+      }
+
+      .link-article-page {
+        font-size:10px;
+        color:grey;
+      }
+
+      .ui.container.segment {
+        border:0;
+        box-shadow:none;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- background-image -->
+    <div class="ui center aligned basic segment" style="height:240px; margin:0; background-image:url('../../../Step2_Practice/l7h1/images/star_banner.jpg'); background-size:cover;">
+      <!-- Header -->
+      <div class="ui compact basic segment" style="transform:translate(-50%,-50%); top:45%; left:50%;">
+        <div class="ui left aligned compact basic segment" style="color:white;">
+          <h1 class="ui inverted header" style="font-size:4.5em;">Bloger</h1>
+          <h6 style="font-size:0.8em;">EVERYONE HAS A STORY TO TELL</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="ui basic segment" style="padding:0; margin:0;">
+      <div class="ui center aligned centered grid">
+        <div class="seven wide column">
+
+          <div class="ui fluid three item borderless menu" style="border:0; box-shadow:none;">
+            <div class="ui dropdown item">
+              Categories
+              <i class="mini dropdown icon"></i>
+              <div class="menu">
+                <a href="#" class="item">Life</a>
+                <a href="#" class="item">Tech</a>
+                <a href="#" class="item">News</a>
+              </div>
+            </div>
+            <a class="item">Popular</a>
+            <a class="item">About</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="ui divider" style="margin:0;"></div>
+    </div>
+
+    <!-- Articles guideness -->
+    <div class="ui basic segment" style="margin:0;">
+
+      <div class="ui centered grid">
+        <div class="ten wide column">
+          <div class="ui container segment">
+
+            <article>
+              <h2 class="title">First web</h2>
+              <div class="description">
+                <div class="metadata">
+                  <i class="unhide icon"></i>
+                  10,000
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <a class="link-article-page" href="#">&nbsp&nbsp>>>READ MORE</a>
+                </p>
+                <div class="tags">
+                  <a class="ui tag label">Life</a>
+                </div>
+              </div>
+            </article>
+
+            <div class="ui divider"></div>
+
+            <article>
+              <h2 class="title">First web</h2>
+              <div class="description">
+                <div class="metadata">
+                  <i class="unhide icon"></i>
+                  10,000
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <a class="link-article-page" href="#">&nbsp&nbsp>>>READ MORE</a>
+                </p>
+                <div class="tags">
+                  <a class="ui tag label">Life</a>
+                  <a class="ui tag label">Tech</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="ui inverted vertical very padded segment">
+      Mugglecoding®
+    </div>
+  </body>
+
+</html>
