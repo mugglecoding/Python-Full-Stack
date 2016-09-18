@@ -1,0 +1,58 @@
+
+.ui.fixed.vertical.segment {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.ui.fixed.vertical.padded.segment {
+
+    margin-top: -70px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.ui.vertical.text.menu > .item {
+    margin-left: auto;
+    font-size: h6;
+    color: rgb(164, 164, 164);
+}
+
+.ui.text.menu > .item {
+    margin-top: 35px;
+    color: #979797;
+}
+
+.ui.text.menu > .right.menu {
+    margin-top: 35px;
+    color: #979797;
+}
+
+.h4f {
+    margin-top: 50px;
+}
+.h5f {
+    margin-top: -50px;
+    color: #979797;
+}
+.h6f {
+    margin-top: -45px;
+    margin-left: -10px;
+    color: #979797;
+}
+
+.h7f {
+    margin-top: -50px;
+    width: 20px;
+}
+
+.two.wide.column.c1{
+    background-color: red;
+}
+
+
+.four.wide.column.c3 {
+    margin-left: 0px;
+    background-color: yellow;
+
+}

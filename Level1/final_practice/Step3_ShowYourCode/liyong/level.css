@@ -1,0 +1,60 @@
+
+
+.ui.vertical.basic.segment.ban02 {
+    height: 55px;
+    background-color: red;
+    top:-14px;
+    /*margin-left: 5%;
+    margin-right: 5%;*/
+}
+
+.ui.basic.segment.ban03 {
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
+
+.ui.tiny.image.ban003 {
+    position: relative;
+    top:-10px;
+    left:20px;
+
+}
+
+.right.menu.ban04{
+    position: relative;
+    top:-20px;
+    right: 20px;
+}
+
+.ban05 {
+    position: relative;
+    right: 30px;
+
+}
+
+.ui.three.column.grid.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/*
+.img-card {
+margin-right: 10px;
+}*/
+
+.card-v {
+    position: absolute;
+    top:180px;
+    left: -25px;
+}
+
+.card-1 {
+    position: relative;
+    top:-10px;
+    margin-bottom: 50px;
+}
+
+.ui.center.aligned.basic.segment.footer-1 {
+    margin-top: 60px;
+}

@@ -1,0 +1,26 @@
+.ui.segment.bg {
+    /*height: 100%;*/
+    background: url('images/star_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.f1 {
+    position: absolute;
+    top:60px;
+    left:40px;
+}
+
+.f2 {
+    position: absolute;
+    top:20px;
+    left:40px;
+}
+
+.f3 {
+    position: absolute;
+    top:43px;
+    left:80px;
+}

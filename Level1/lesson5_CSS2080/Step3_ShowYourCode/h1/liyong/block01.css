@@ -1,0 +1,30 @@
+
+.block01 {
+    border: solid 2px blue;
+    /*margin-bottom: 20px;*/
+    padding: 0 0 0 20px;
+    box-sizing:border-box;
+    width:64px;
+    height:64px;
+    background: tomato;
+}
+
+.block02 {
+    border: solid 2px green;
+    /*margin-bottom: 20px;*/
+    padding: 0 0 0 20px;
+    box-sizing:border-box;
+    width:64px;
+    height:64px;
+    background: green;
+}
+
+.block03 {
+    border: solid 2px yellow;
+    /*margin-bottom: 20px;*/
+    padding: 0 0 0 20px;
+    box-sizing:border-box;
+    width:64px;
+    height:64px;
+    background: rgba(255, 0, 0, 0.5);
+}

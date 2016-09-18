@@ -1,0 +1,40 @@
+.ui.vertical.basic.segment.banmaster {
+    height: 450px;
+    background: url('images/detail.jpg');
+    background-size:90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.ui.vertical.basic.segment.ban02 {
+    height: 40px;
+    background-color: red;
+    top:-14px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ui.tiny.image.ban03 {
+    position: relative;
+    top:-15px;
+    left:20px;
+
+}
+
+.right.menu.ban04{
+    position: relative;
+    top:-28px;
+    right: 20px;
+}
+
+.ban05 {
+    position: relative;
+    right: 50px;
+
+}
+
+.ui.basic.segment.p1 {
+    padding-left: 30%;
+    padding-right: 30%;
+}

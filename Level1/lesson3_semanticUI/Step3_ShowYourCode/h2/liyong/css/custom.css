@@ -1,0 +1,27 @@
+
+.ui.circular.segment.wz {
+    position: absolute;
+    border-color: red;
+    width: 240px;
+    height: 240px;
+    border-style: solid;
+    border-width: 30px;
+    transform: translate(0%,0%);
+}
+
+.ui.circular.segment.lei {
+    position: absolute;
+    background-color: blue;
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 30px;
+    transform: translate(5%,5%);
+}
+
+.star.large.icon.inverted.start {
+    position: absolute;
+
+    transform: translate(-50%,-50%);
+}

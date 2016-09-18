@@ -1,0 +1,58 @@
+
+.flower {
+    box-sizing: border-box;
+    width: 64px;
+    height: 64px;
+    background: url('images/rose.png');
+    background-size: contain;
+    position: relative;
+    top: 64px;
+    left: 64px;
+
+
+}
+
+.block01 {
+    box-sizing: border-box;
+    width: 64px;
+    height: 64px;
+    background: url('images/grass.png');
+    background-size: contain;
+}
+
+
+.block02 {
+    box-sizing: border-box;
+    width: 128px;
+    height: 64px;
+    background: url('images/grass.png');
+    background-size: contain;
+}
+
+
+
+.block03 {
+    box-sizing: border-box;
+    width: 192px;
+    height: 64px;
+    background: url('images/grass.png');
+    background-size: contain;
+}
+
+
+.bg {
+    border: solid 5px rgb(214, 29, 38);
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+body {
+    margin: 0;
+    background: url('images/brick.jpg');
+    background-size: 150px 150px;
+}
