@@ -1,0 +1,45 @@
+.ui.vertical.basic.segment.masthead{
+    padding: 0;
+}
+
+.ui.text.menu.top {
+    background-color:rgb(255, 0, 0);
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    height: 30px;
+}
+
+.ui.three.item.menu {
+    margin: 20px;
+    width: 50%;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.ui.three.item.menu > .item {
+    background-color: rgb(151, 157, 152);
+}
+
+.ui.three.item.menu > .item.active {
+    background-color: white;
+}
+
+
+.ui.three.column.grid {
+    margin: auto;
+    padding: 0 0 50px 0;
+    width: 80%;
+}
+.ui.buttons {
+    margin: auto;
+}
+.ui.button {
+    background-color: white;
+    color: red;
+}
+
+body {
+    background-color: rgb(211, 208, 212)
+}
