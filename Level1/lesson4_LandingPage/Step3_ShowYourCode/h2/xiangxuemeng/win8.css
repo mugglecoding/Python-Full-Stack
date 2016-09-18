@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.ui.vertical.segment.first{
+    width: 225px;
+    height: 225px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.ui.vertical.segment.second{
+    width: 385px;
+    height: 225px;
+}
+
+.center.kk{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.mm{
+    position: relative;
+    top: 80%;
+    left:10%;
+}

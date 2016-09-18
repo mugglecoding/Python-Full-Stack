@@ -1,0 +1,42 @@
+body{
+    background: url('images/super_blur_back2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.ui.segment.logo{
+    background-color: white;
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height:300px;
+}
+
+.five.wide.column{
+    background: url('images/red_regi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    position:relative;
+    left:14px;
+}
+.eleven.wide.column{
+    position: relative;
+}
+
+.ui.header.login{
+    position: relative;
+    left:260px;
+    margin-bottom: 30px;
+
+}
+
+.ui.input{
+    margin: 4px;
+    width: 315px;
+    height:30px;
+    padding-left: 12px;
+}
