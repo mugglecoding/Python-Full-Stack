@@ -1,0 +1,30 @@
+.comment_white_border{
+    background-color: white;
+    margin-bottom: : 20px;
+    border-left: solid 3px green;
+    padding-left: 20px
+}
+.comment_gray_border{
+    background-color: rgb(233, 233, 233);
+    margin-bottom: : 20px;
+    border-left: solid 3px green;
+    padding: 10px
+
+}
+
+.comment_white{
+    background-color: white;
+    margin-bottom: : 20px;
+    box-sizing: border-box;
+    padding: 10px
+}
+.comment_gray{
+    background-color: rgb(233, 233, 233);
+    margin-bottom: : 20px;
+    padding: 10px
+
+}
+
+.border{
+    border: solid 2px black;
+}
