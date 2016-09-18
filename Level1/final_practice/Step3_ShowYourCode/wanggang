@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lesson7_h1_html</title>
+        <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="level_1_css_big_homework.css" media="screen" title="no title" charset="utf-8">
+    </head>
+
+    <!-- 说明，这是基础题，主要两个部分，上面是一个Banner图片和菜单，下面是居中的文章题目和正文 -->
+    <body>
+
+        <!-- 第一部分，Banner图片和菜单 -->
+        <!-- 红色横条的菜单栏 -->
+        <!-- 奥，是我思维短路了，应该在外层加一个segment的，9.18 -->
+        <div class="ui vertical inverted red segment">
+            <div class="ui inverted red menu">
+                <div class="ui image">
+                    <img src="images/tenlogo.png" alt="" />
+                </div>
+                <div class="right menu">
+                    <span class="user icon top">
+                        <i class="user icon"></i>
+                        admin
+                    </span>
+                    <button type="button" name="button" class="ui circular inverted button">Logout</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 菜单栏  all new editor's-->
+        <!-- 有一个问题，不知道怎么样把菜单按钮变成白色？？？？ -->
+        <div class="ui basic segment">
+            <div class="ui three column grid">
+                <div class="five wide column">
+                </div>
+                <div class="six wide column">
+                    <div class="ui secondary fluid three item menu">
+                        <a class="item">
+                            All
+                        </a>
+                        <a class="item">
+                            New
+                        </a>
+                        <a class="active item">
+                            Editor's
+                        </a>
+                    </div>
+                </div>
+                <div class="five wide column">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 卡片展示栏目，用grid+card方式 -->
+        <!-- 把屏幕分成三列 -->
+
+        <div class="ui three column grid">
+            <div class="three wide column">
+            </div>
+
+
+            <!-- 9张卡片以及相关题目说明等 -->
+            <div class="ten wide column">
+                <div class="ui three cards">
+                    <div class="card">
+                        <div class="image">
+                          <img src="images/card1.png" alt="" />
+                        </div>
+                        <div class="extra">
+                            <p class="ui left aligned header">
+                                What title should be?
+                            </p>
+                            <span class="icon under picture">
+                                <i class="unhide icon"></i> 10K<i class="checkmark icon"></i> 10 people got it.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                          <img src="images/card2.png" alt="" />
+                        </div>
+                        <div class="extra">
+                            <p class="ui left aligned header">
+                                What title should be?
+                            </p>
+                            <span class="icon under picture">
+                                <i class="unhide icon"></i> 10K<i class="checkmark icon"></i> 10 people got it.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                          <img src="images/card3.png" alt="" />
+                        </div>
+                        <div class="extra">
+                            <p class="ui left aligned header">
+                                What title should be?
+                            </p>
+                            <span class="icon under picture">
+                                <i class="unhide icon"></i> 10K<i class="checkmark icon"></i> 10 people got it.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                          <img src="images/card4.png" alt="" />
+                        </div>
+                        <div class="extra">
+                            <p class="ui left aligned header">
+                                What title should be?
+                            </p>
+                            <span class="icon under picture">
+                                <i class="unhide icon"></i> 10K<i class="checkmark icon"></i> 10 people got it.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                          <img src="images/card5.png" alt="" />
+                        </div>
+                        <div class="extra">
+                            <p class="ui left aligned header">
+                                What title should be?
+                            </p>
+                            <span class="icon under picture">
+                                <i class="unhide icon"></i> 10K<i class="checkmark icon"></i> 10 people got it.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                          <img src="images/card6.png" alt="" />
+                        </div>
+                        <div class="extra">
+                            <p class="ui left aligned header">
+                                What title should be?
+                            </p>
+                            <span class="icon under picture">
+                                <i class="unhide icon"></i> 10K<i class="checkmark icon"></i> 10 people got it.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                          <img src="images/card7.png" alt="" />
+                        </div>
+                        <div class="extra">
+                            <p class="ui left aligned header">
+                                What title should be?
+                            </p>
+                            <span class="icon under picture">
+                                <i class="unhide icon"></i> 10K<i class="checkmark icon"></i> 10 people got it.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                          <img src="images/card8.png" alt="" />
+                        </div>
+                        <div class="extra">
+                            <p class="ui left aligned header">
+                                What title should be?
+                            </p>
+                            <span class="icon under picture">
+                                <i class="unhide icon"></i> 10K<i class="checkmark icon"></i> 10 people got it.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                          <img src="images/card9.png" alt="" />
+                        </div>
+                        <div class="extra">
+                            <p class="ui left aligned header">
+                                What title should be?
+                            </p>
+                            <span class="icon under picture">
+                                <i class="unhide icon"></i> 10K<i class="checkmark icon"></i> 10 people got it.
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="three wide column">
+            </div>
+        </div>
+
+        <!-- 页面底部的按钮，两个箭头标志 -->
+        <div class="ui icon buttons">
+            <button class="ui white button">
+                <i class="red arrow left icon"></i>
+            </button>
+            <button class="ui white button">
+                <i class="red arrow right icon"></i>
+            </button>
+        </div>
+
+
+
+
+
+    </body>
+</html>
