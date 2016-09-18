@@ -1,0 +1,49 @@
+/* Main column (also container for rectangle) */
+.ui.three.column.grid > .column {
+    padding:0;
+}
+
+/* Main column separate for Square */
+.column > .ui.two.column.grid {
+    margin:0;
+}
+
+/* Square container */
+.ui.two.column.grid > .column {
+    padding: 1%;
+}
+
+/* All single module include both square and retangle */
+.column > .ui.basic.segment {
+    padding:0;
+}
+
+.auto-square {
+    position: relative;
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.auto-rectangle {
+    position: relative;
+    content: "";
+    display: block;
+    margin: 1% 1% 0 1%;
+    padding-bottom: 48%;
+}
+
+.center-icon {
+    position:absolute;
+    transform:translate(-50%,-50%);
+	top:50%;
+	left:50%;
+}
+
+.bottom-name {
+    position:absolute;
+    transform:translate(0, -100%);
+    color: white;
+    top: 92%;
+    left: 6%;
+}

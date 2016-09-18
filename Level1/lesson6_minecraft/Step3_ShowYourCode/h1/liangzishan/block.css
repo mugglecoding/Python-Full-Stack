@@ -1,0 +1,66 @@
+.brick-background {
+  width: 98%;
+  height: 98%;
+  margin: 2%;
+  background-size: 64px!important;
+  background: url('../../../../lesson6_minecraft/Step2_Practice/l6h1/images/brick.jpg');
+}
+
+.cobble-stone {
+  position: absolute;
+  left: 50%;
+  width: 60%;
+  height: 50%;
+  box-sizing: border-box;
+  background-size: 10%;
+  background: url('../../../../lesson6_minecraft/Step2_Practice/l6h1/images/cobble_stone.png');
+  transform: translate(-50%,0);
+}
+
+.stone-brick {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 50%;
+  box-sizing: border-box;
+  background-size: 10%;
+  background: url('../../../../lesson6_minecraft/Step2_Practice/l6h1/images/stonebrick.png');
+  transform: translate(-50%,0);
+}
+
+.inner-cobble-stone {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 65%;
+  height: 75%;
+  box-sizing: border-box;
+  background-size: 64px;
+  background: url('../../../../lesson6_minecraft/Step2_Practice/l6h1/images/inner_cobble_stone.png');
+  transform: translate(-50%,-100%);
+}
+
+.iron-bars {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 100%;
+  height: 50%;
+  box-sizing: border-box;
+  background-size: contain;
+  background: url('../../../../lesson6_minecraft/Step2_Practice/l6h1/images/Iron_bars.png');
+  transform: translate(-50%,-100%);
+}
+
+.fire-gif {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+  background: url('../../../../lesson6_minecraft/Step2_Practice/l6h1/images/har.gif');
+  transform: translate(-50%,-100%);
+}
