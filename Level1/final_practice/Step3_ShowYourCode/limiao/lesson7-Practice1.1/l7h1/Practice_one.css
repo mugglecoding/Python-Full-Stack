@@ -1,0 +1,39 @@
+.ui.vertical.inverted.red.basic.segment{
+    height: 100px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+.ui.image.logo{
+    margin-top: 10px;
+}
+.item.admin{
+    font-size: 22px;
+    position: relative;
+}
+.item.logout{
+    position: absolute;
+    left:60px;
+}
+.ui.vertical.basic.segment.banner{
+    height: 700px;
+    background: url('images/detailbanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ui.inverted.blue.center.aligned.header.slogan{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ui.vertical.segment.unter{
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.atical{
+    font-size: 18px;
+    font-weight: bold;
+}

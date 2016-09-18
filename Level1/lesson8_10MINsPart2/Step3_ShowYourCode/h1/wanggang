@@ -1,0 +1,58 @@
+/*整个背景加上图片，虚化图片*/
+body {
+    background: url("l8h1/images/super_blur_back2.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+/*注册界面背景白色，规格设置，进行居中处理，这里面我对于定位和移动比例其实没有搞懂，需要回头复习*/
+.ui.vertical.container.segment {
+    background: white;
+    width: 510px;
+    height: 290px;
+    left: 20%;
+    top:40%;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+
+/*注册界面左侧树列加上背景图片，背景图片的规格根据上面container segment的规格计算得出。然后改变元素颜色，文字和Logo下移处理，下移的时候遇到一些问题*/
+.five.wide.column {
+    width: 159px;
+    height: 290px;
+    background: url("l8h1/images/red_regi.jpg");
+    background-size: contain;
+    position: relative;
+}
+
+/*在下移的时候，遇到问题，我写百分比，元素并不移动，就改为写移动的具体距离，我不知道为什么？？？？？*/
+.ui.center.aligned.sub.header {
+    top:48px;
+    position: relative;
+}
+
+.ui.centered.image {
+    top:50px;
+}
+
+
+/*右侧顶部登陆链接移到右上角*/
+.ui.right.top.corner {
+    left:110%;
+    position: relative;
+}
+
+/*填选框拉长*/
+.ui.field {
+    width: 330px;
+    height: 30px;
+}
+
+/*右下角的红色done按钮调整大小并且移动到右下角*/
+.ui.circular.inverted.red.button {
+    width: 100px;
+    height: 40px;
+    left:100%;
+    top:30px;
+    position: relative;
+}

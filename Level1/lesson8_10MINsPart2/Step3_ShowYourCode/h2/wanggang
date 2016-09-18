@@ -1,0 +1,15 @@
+
+.ui.vertical.basic.segment.top {
+    bottom: 20px;
+    height: 350px;
+    margin-bottom: 0;
+}
+
+.ui.raised.segment.container.top {
+    width: 500px;
+    margin-top: -1150px;
+}
+
+.ui.raised.segment.container.down {
+    width: 500px;
+}

@@ -1,0 +1,20 @@
+.ui.inverted.red.secondary.menu {
+    position: relative;
+}
+
+
+.details {
+    height: 500px;
+    /*width: 300px;*/
+    background: url('images/detail.jpg');
+    background-size: cover;
+    position: relative;
+    /*top:100px;*/
+}
+
+.ui.vertical.basic.segment.text1 {
+    width: 450px;
+    position: relative;
+    transform: translate(-50%,0%);
+    left: 50%;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>10MINs</title>
+        <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title">
+        <link rel="stylesheet" href="10css.css" media="screen" title="no title">
+    </head>
+    <body>
+        <div class="ui text menu masthead">
+            <div class="ui image masthead">
+                <img src="images/tenlogo.png" alt="" />
+            </div>
+
+            <div class="right menu">
+                <div class="item">
+                    <i class="inverted blue big help circle icon"></i>
+                </div>
+                <div class="item">
+                    <p class="ui inverted header">admin</p>
+                </div>
+                <div class="item">
+                    <button type="button" name="button" class="ui inverted circular button">Login out</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui vertical basic segment recommended">
+            <div class="container">
+                <div class="ui three item menu">
+                    <a class="item">All</a>
+                    <a class="item">New</a>
+                    <a class="active item">Editor's</a>
+                </div>
+            </div>
+
+            <div class="ui three column grid container">
+                <div class="column">
+                    <div class="ui card">
+                        <div class="ui image">
+                            <img src="images\bremen-town-musicians-1651945__340.jpg" alt="" id="image"/>
+                        </div>
+                        <div class="content">
+                            <h3 class="ui header">Ut unde numquam non nisi</h3>
+                            <div class="meta">
+                                <i class="grey icon unhide"></i>10K|<i class="grey checkmark icon"></i>
+                                10 people got it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui card">
+                        <div class="ui image">
+                            <img src="images\mill-1620440__340.jpg" alt="" id="image"/>
+                        </div>
+                        <div class="content">
+                            <h3 class="ui header">Nsciunt enligendi qui et si...</h3>
+                            <div class="meta">
+                                <i class="grey icon unhide"></i>10K|<i class="grey checkmark icon"></i>
+                                10 people got it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui card">
+                        <div class="ui image">
+                            <img src="images\sunset-1625073__340.jpg" alt="" id="image"/>
+                        </div>
+                        <div class="content">
+                            <h3 class="ui header">Quo accusantium commodi in</h3>
+                            <div class="meta">
+                                <i class="grey icon unhide"></i>10K|<i class="grey checkmark icon"></i>
+                                10 people got it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui card">
+                        <div class="ui image">
+                            <img src="images\cobweb-1630493__340.jpg" alt="" id="image"/>
+                        </div>
+                        <div class="content">
+                            <h3 class="ui header">Deleniti laudantium cum occ..</h3>
+                            <div class="meta">
+                                <i class="grey icon unhide"></i>10K|<i class="grey checkmark icon"></i>
+                                10 people got it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui card">
+                        <div class="ui image">
+                            <img src="images\rk5161-1636868__340.jpg" alt="" id="image"/>
+                        </div>
+                        <div class="content">
+                            <h3 class="ui header">Aliquid impedit et iure fug...</h3>
+                            <div class="meta">
+                                <i class="grey icon unhide"></i>10K|<i class="grey checkmark icon"></i>
+                                10 people got it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui card">
+                        <div class="ui image">
+                            <img src="images\berries-1546125__340.jpg" alt="" id="image"/>
+                        </div>
+                        <div class="content">
+                            <h3 class="ui header">Ad et coluptatibus qui. Nig...</h3>
+                            <div class="meta">
+                                <i class="grey icon unhide"></i>10K|<i class="grey checkmark icon"></i>
+                                10 people got it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui card">
+                        <div class="ui image">
+                            <img src="images\elan-1623088__340.jpg" alt="" id="image"/>
+                        </div>
+                        <div class="content">
+                            <h3 class="ui header">Molestiae cupiditate et ut...</h3>
+                            <div class="meta">
+                                <i class="grey icon unhide"></i>10K|<i class="grey checkmark icon"></i>
+                                10 people got it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui card">
+                        <div class="ui image">
+                            <img src="images\yellowstone-national-park-1581879__340.jpg" alt="" id="image"/>
+                        </div>
+                        <div class="content">
+                            <h3 class="ui header">Rem accusamus dictarepudia..</h3>
+                            <div class="meta">
+                                <i class="grey icon unhide"></i>10K|<i class="grey checkmark icon"></i>
+                                10 people got it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui card">
+                        <div class="ui image">
+                            <img src="images\dachshund-1519374__340.jpg" alt="" id="image"/>
+                        </div>
+                        <div class="content">
+                            <h3 class="ui header">Ad et coluptatibus qui. Nig...</h3>
+                            <div class="meta">
+                                <i class="grey icon unhide"></i>10K|<i class="grey checkmark icon"></i>
+                                10 people got it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-buttom">
+                <div class="ui two item menu">
+                    <div class="item">
+                        <i class="big red arrow left icon"></i>
+                    </div>
+                    <div class="item">
+                        <i class="big red arrow right icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

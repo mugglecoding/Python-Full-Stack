@@ -1,0 +1,29 @@
+
+.ui.vertical.basic.segment.masthead {
+    height: 120px;
+    background: url('images/banner.jpg');
+    background-size:100% 100%;
+}
+
+
+.ui.vertical.basic.segment.article {
+    margin: auto;
+    width: 60%;
+    padding: 10px 0 50px 0;
+}
+
+.ui.header {
+    margin: 0;
+}
+
+.ui.three.item.text.menu {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+body {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}

@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.headbanner {
+  background: url("../images/detail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  margin-bottom: 25px
+}
+
+.ui.text.menu.red {
+  margin: 0;
+  background-color: red;
+  padding: 0 10px
+}
+
+
+#img {
+  height: 50px;
+  line-height: 50px
+}
+
+#img img {
+  vertical-align:middle;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.message {
+  margin-bottom: 12px
+}
+
+.word {
+  color: grey;
+}

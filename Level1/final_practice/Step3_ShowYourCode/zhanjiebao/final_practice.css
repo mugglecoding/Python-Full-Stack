@@ -1,0 +1,139 @@
+.ui.bg.segment{
+   background: url('../../Step2_Practice/images/tenlogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    max-width: 800px;
+    padding: 0;
+    position: relative;
+    transform: translate(-50%,0);
+    left:50%;
+
+}
+
+.ui.basic.segment.ed0{
+    width: 300px;
+    position: relative;
+    transform: translate(-50%,0);
+    left:50%;
+}
+
+.ui.inverted.segment.ed1{
+    background: url('../../Step2_Practice/images/bremen-town-musicians-1651945__340.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 160px;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ui.inverted.segment.ed2{
+    background: url('../../Step2_Practice/images/mill-1620440__340.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 160px;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ui.inverted.segment.ed3{
+    background: url('../../Step2_Practice/images/sunset-1625073__340.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 160px;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ui.inverted.segment.ed4{
+    background: url('../../Step2_Practice/images/cobweb-1630493__340.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 160px;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ui.inverted.segment.ed5{
+    background: url('../../Step2_Practice/images/rk5161-1636868__340.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 160px;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ui.inverted.segment.ed6{
+    background: url('../../Step2_Practice/images/berries-1546125__340.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 160px;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ui.inverted.segment.ed7{
+    background: url('../../Step2_Practice/images/elan-1623088__340.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 160px;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ui.inverted.segment.ed8{
+    background: url('../../Step2_Practice/images/yellowstone-national-park-1581879__340.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 160px;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ui.inverted.segment.ed9{
+    background: url('../../Step2_Practice/images/dachshund-1519374__340.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 160px;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.ui.basic.segment.grid{
+    max-width: 800px;
+    position: relative;
+    transform: translate(-50%,0);
+    left:50%;
+}
+
+.ui.basic.segment.footbutton{
+    margin-top: 50px;
+}

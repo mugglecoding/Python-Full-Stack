@@ -1,0 +1,41 @@
+.banner {
+    height: 60px;
+    width: inherit;
+    background: rgb(240, 84, 56);
+}
+
+.ui.inverted.text.menu.header {
+    margin: 0;
+}
+
+.ui.vertical.basic.segment.masthead {
+    height: 500px;
+    width: inherit;
+    background: url('images/detail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ui.vertical.very.padded.basic.segment.article {
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.ui.black.circular.label.right {
+    position: absolute;
+    left: 100%;
+    width: 70px;
+    transform:translate(-100%,0);
+}
+
+.look {
+    font-size: 15px;
+    color: gray;
+}
+
+.got {
+    font-size: 15px;
+    color: gray;
+}
