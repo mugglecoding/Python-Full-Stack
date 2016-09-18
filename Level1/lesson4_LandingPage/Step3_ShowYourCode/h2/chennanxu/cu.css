@@ -1,0 +1,15 @@
+.ui.grid {
+    padding: 10px;
+}
+
+i {
+    position: relative;
+    top: 30px;
+}
+
+span {
+    color:white;
+    position: relative;
+    top:110px;
+    left: -200px;
+}
