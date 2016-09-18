@@ -1,0 +1,32 @@
+.ui.inverted.text.menu{
+    padding-left: 30px;
+    padding-right: 80px;
+}
+.item.admin{
+    position: relative;
+}
+.item.logout{
+    position: absolute;
+    left: 50px;
+}
+.ui.segment.top{
+    margin-top: 20px;
+    padding-left: 44px;
+    box-sizing: border-box;
+    width: 400px;
+    background: rgb(197, 207, 206);
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.ui.inverted.segment.card-view{
+    height: 220px;
+
+}
+.ui.segment.footer{
+    padding-left: 54px;
+    box-sizing: border-box;
+    width: 200px;
+    left: 50%;
+    transform: translate(-50%,0);
+    background: rgb(198, 210, 207);
+}
