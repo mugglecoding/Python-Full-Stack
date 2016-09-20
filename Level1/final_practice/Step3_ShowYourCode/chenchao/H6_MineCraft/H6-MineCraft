@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MinceCraft</title>
+        <link rel="stylesheet" href="mine.css" media="screen" title="no title">
+    </head>
+    <body>
+        <div class="bg">
+            <div class="mine-1">
+
+            </div>
+            <div class="mine-fire">
+
+            </div>
+        </div>
+    </body>
+</html>
