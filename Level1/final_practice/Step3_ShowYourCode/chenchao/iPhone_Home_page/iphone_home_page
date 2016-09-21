@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>iphone_home_page</title>
+        <link rel="stylesheet" href="css\semantic.css" media="screen" title="no title">
+    </head>
+    <body>
+        <div class="ui inverted basic menu">
+            <a href="#" class="item">
+                <i class="apple icon"></i>
+            </a>
+            <a href="#" class="item">Mac</a>
+            <a href="#" class="item">ipad</a>
+            <a href="#" class="item">iphone</a>
+            <a href="#" class="item">Watch</a>
+            <a href="#" class="item">Music</a>
+            <a href="#" class="item">support</a>
+            <a href="#" class="item">
+                <i class="search icon"></i>
+            </a>
+            <a href="#" class="item">
+                <i class="lock icon"></i>
+            </a>
+        </div>
+
+        <div class="ui basic segment">
+            <div class="ui image">
+                <img src="images\6s.png" alt="" />
+            </div>
+        </div>
+
+        <div class="ui basic segment">
+            <div class="ui one column centered very padded grid ">
+                <div class=" one column centered row ">
+                    <a href="#" class="item">
+                        <i class="tiny circle thin icon"></i>
+                        <i class="tiny circle icon"></i>
+                        <i class="tiny circle icon"></i>
+                        <i class="tiny circle icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ui basic segment">
+            <div class="ui grid">
+                <div class="four wide column">
+                    <div class="ui image">
+                        <img src="images\4men1.png" alt="" />
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <div class="ui image">
+                        <img src="images\Swift22.png" alt="" />
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <div class="ui image">
+                        <img src="images\better3.png" alt="" />
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <div class="ui image">
+                        <img src="images\event4.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui basic segment">
+            <div class="ui grid">
+                <div class=" twelve wide column">
+                    <div class="ui  image">
+                        <img src="images\redcross.png" alt="" />
+                    </div>
+                </div>
+
+                <div class=" four wide column">
+                    <div class="ui basic segment">
+                        <a href="#" class="item">Donate for help</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui vertical secondary segment ">
+            <div class="ui grid">
+                <div class="two wide column">
+                    <div class="ui vertical inverted text menu">
+                        <div class="item">
+                            <h4 class="ui header">
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="two wide column">
+                    <div class="ui vertical text menu">
+                        <div class="item">
+                            <h4 class="ui header ">Shop and leaf</h4>
+                        </div>
+                        <div class="item">
+                            Mac
+                        </div>
+
+                        <div class="item">
+                            iPad
+                        </div>
+
+                        <div class="item">
+                            iPhone
+                        </div>
+                        <div class="item">
+                            Watch
+                        </div>
+                        <div class="item">
+                            TV
+                        </div>
+                        <div class="item">
+                            Music
+                        </div>
+                        <div class="item">
+                            iPod
+                        </div>
+                        <div class="item">
+                            Access
+                        </div>
+                        <div class="item">
+                            Gitt Cards
+                        </div>
+                    </div>
+                </div>
+
+                <div class="one wide column">
+                    <div class="ui vertical inverted text menu">
+                        <div class="item">
+                            <h4 class="ui header">
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column">
+                    <div class="ui vertical text menu">
+                        <div class="item">
+                            <h4 class="ui header">
+                                Apps store
+                            </h4>
+                        </div>
+                        <div class="item">
+                            Mac
+                        </div>
+
+                        <div class="item">
+                            iPad
+                        </div>
+
+                        <div class="item">
+                            iPhone
+                        </div>
+                        <div class="item">
+                            Watch
+                        </div>
+                        <div class="item">
+                            TV
+                        </div>
+                        <div class="item">
+                            Music
+                        </div>
+                        <div class="item">
+                            iPod
+                        </div>
+                        <div class="item">
+                            Access
+                        </div>
+                        <div class="item">
+                            Gitt Cards
+                        </div>
+                    </div>
+                </div>
+
+                <div class="one wide column">
+                    <div class="ui vertical inverted text menu">
+                        <div class="item">
+                            <h4 class="ui header">
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column">
+                    <div class="ui vertical text menu">
+                        <div class="item">
+                            <h4 class="ui header">
+                                For teacher
+                            </h4>
+                        </div>
+                        <div class="item">
+                            Mac
+                        </div>
+                        <div class="item">
+                            Mac
+                        </div>
+
+                        <div class="item">
+
+                        </div>
+
+                        <div class="item">
+                            <h4 class="ui header">
+                                For students
+                            </h4>
+                        </div>
+                        <div class="item">
+                            Mac
+                        </div>
+                        <div class="item">
+                            Mac
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="one wide column">
+                    <div class="ui vertical inverted text menu">
+                        <div class="item">
+                            <h4 class="ui header">
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column">
+                    <div class="ui vertical text menu">
+                        <div class="item">
+                            <h4 class="ui header">
+                                For teacher
+                            </h4>
+                        </div>
+                        <div class="item">
+                            Mac
+                        </div>
+                        <div class="item">
+                            Mac
+                        </div>
+
+                        <div class="item">
+
+                        </div>
+
+                        <div class="item">
+                            <h4 class="ui header">
+                                For students
+                            </h4>
+                        </div>
+                        <div class="item">
+                            Mac
+                        </div>
+                        <div class="item">
+                            Mac
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="one wide column">
+                    <div class="ui vertical inverted text menu">
+                        <div class="item">
+                            <h4 class="ui header">
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column">
+                    <div class="ui vertical text menu">
+                        <div class="item">
+                            <h4 class="ui header">
+                                About Apps
+                            </h4>
+                        </div>
+
+                        <div class="item">
+                            iPhone
+                        </div>
+                        <div class="item">
+                            Watch
+                        </div>
+                        <div class="item">
+                            TV
+                        </div>
+                        <div class="item">
+                            Music
+                        </div>
+                        <div class="item">
+                            iPod
+                        </div>
+                        <div class="item">
+                            Access
+                        </div>
+                        <div class="item">
+                            Gitt Cards
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+
+            </div>
+
+        <div class="ui basic secondary segment">
+            <div class="ui grid">
+                <div class="four wide column">
+
+                </div>
+                <div class="eight wide column">
+                    Many student buy item from
+                    <a href="#">Apps store</a>
+                    and sold it to
+                    <a href="#">Apple user</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui secondary segment">
+            <div class="ui grid">
+                <div class="four wide column">
+
+                </div>
+
+                <div class="four wide column">
+                    Copyright
+                    <i class="copyright icon"></i>
+                    2016 Apple Company
+                </div>
+
+                <div class="one wide column">
+                    <div class="item">
+                        privacy
+                    </div>
+                </div>
+                <div class="one wide column">
+                    <div class="item">
+                        Pop
+                    </div>
+                </div>
+                <div class="one wide column">
+                    <div class="item">
+                        Pop
+                    </div>
+                </div>
+                <div class="one wide column">
+                    <div class="item">
+                         Pop
+                    </div>
+                </div>
+
+                <div class="two wide column">
+                    <div class="item">
+
+                    </div>
+                </div>
+
+                <div class="two wide column">
+                    <div class="item">
+                        <i class="us flag"></i>
+                        United State
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+body{
+  position: relative;
+}
+.ui.vertical.basic.segment.head{
+background: url('images/star_banner.jpg') no-repeat;
+height: 20%;
+width: 100%;
+background-size: 100% 100%;/* 手动显示全部 */
+}
+.Bloger{
+  font-size: 75px;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+.ui.fluid.three.item.borderless.menu{
+  margin: 0;
+  border: 0;
+  box-shadow: 0 ;
+}
+.ui.secondary.menu{
+  box-sizing: border-box;
+  height: 20px;
+  width: inherit;
+  margin-left:auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.ui.dropdown.item{
+  padding-left: 90px;
+  margin: 100px;
+  padding-right: 90px;
+}
+
+.ui.item.menuitem{
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.ui.basic.segment.icon{
+  padding-top: 0;
+  margin-top: 0;
+
+}
+.ui.divider.adiverider{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.readme{
+  color: grey;
+}
+
+.first.web{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 7px;
+}
+
+.checkmark.icon.icon_s{
+margin-left: 25px;
+ width: inherit;
+}
+.ui.basic.center.aligned.segment.wow{
+  margin-left: 15%;
+  margin-right: 15%;
+  position: relative;
+  text-align:left;
+}
+.ui.basic.segment.icon{
+  padding-left: 0;
+}
+
+.unhide.icon{
+  color: grey;
+}
+.ui.inverted.vertical.segment.mugglecoding{
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  bottom:0;/*固定在底部 */
+}

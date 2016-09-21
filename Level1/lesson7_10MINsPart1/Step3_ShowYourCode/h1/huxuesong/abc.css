@@ -1,0 +1,71 @@
+body{
+        margin:0;
+
+}
+.ui.inverted.vertical.segment{
+    padding-bottom: 0;
+
+    background-color:rgb(201, 52, 12);
+
+
+
+}
+.ui.inverted.text.menu{
+    padding: 0 20px 0 10px;
+    margin: 0;
+}
+
+
+
+.ui.icon.blue.button{
+    height: 10px;
+    width: 10px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    right: 70px;
+}
+
+.help.icon{
+    position: relative;
+    bottom:50%;
+    right:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.abcd{
+    position: relative;
+    right: 50px;
+    top:7px;
+}
+
+.right.menu{
+    position: relative;
+    bottom:7px;
+}
+.ui.image{
+    width:3000px;
+    height:450px;
+    background: url('images/detail.jpg');
+    background-size:cover;
+
+}
+
+.ui.vertical.segment.dante{
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.ui.vertical.segment.song{
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.ui.inverted.text.menu.xue{
+    position: relative;
+    bottom:7px;
+}

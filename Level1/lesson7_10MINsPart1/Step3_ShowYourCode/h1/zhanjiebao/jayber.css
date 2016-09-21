@@ -1,0 +1,12 @@
+.ui.bg.segment{
+    background: url('../../../Step2_Practice/l7h1/images/star_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    max-width: 1000px;
+    height:300px;
+    padding: 0 0 0 0;
+    position: relative;
+    transform: translate(-50%,0);
+    left:50%;
+}

@@ -1,0 +1,51 @@
+body{
+  background-color: rgb(6, 1, 244);
+  height: auto;
+  width: 900px;
+}
+#small{
+  box-sizing: border-box;
+  width: 130px;
+  height: 130px;
+  margin-left: 10px;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+.icon{
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+.pp{
+  padding: 0;
+  position: absolute;
+  transform: translate(0%,-50%);
+  top: 85%;
+  left: 10%;
+  font-size: 12px;
+}
+#long{
+  box-sizing: border-box;
+  width: 270px;
+  height: 130px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.row{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.ui.grid{
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}

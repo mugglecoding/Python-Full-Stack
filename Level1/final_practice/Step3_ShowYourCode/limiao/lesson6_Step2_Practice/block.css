@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  background: white;
+}
+.bg{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.top{
+  border: solid 2px blue;
+  box-sizing: border-box;
+  width: 400px;
+  height: 400px;
+  background: rgb(161, 242, 28);
+}
+.bottom{
+  border: solid 2px green;
+  box-sizing: border-box;
+  width: 400px;
+  height: 400px;
+  background: url('./images/stonebrick.png');
+  position: relative;
+}
+.fire{
+  border: solid 2px gray;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}

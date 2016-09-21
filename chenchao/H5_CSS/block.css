@@ -1,0 +1,36 @@
+.glass-name{
+    color: blue;
+    font-weight: bold;
+}
+.glass-date{
+    color:rgb(113, 113, 113);
+    font-size:small;
+}
+
+.glass-1{
+    margin-bottom: 0px;
+    padding: 0 0 20px 20px;
+    margin: 0px;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    background: white
+}
+
+.glass-2{
+    margin-bottom: 0px;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    background: white
+}
+
+.glass-3{
+    margin-bottom: 0px;
+    padding: 0 40px 0 40px;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    background: rgb(195, 195, 195);
+}

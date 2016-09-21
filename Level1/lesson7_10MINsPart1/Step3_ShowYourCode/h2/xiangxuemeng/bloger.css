@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+.ui.segment.bg{
+    background: url('images/star_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    background-position: bottom;
+
+}
+
+.ui.basic.very.padded.segment{
+    width: 512px;
+    height: 256px;
+
+
+}
+
+.ui.aligned.center.inverted.white.header{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.ui.text.menu.mm{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.ui.basic.very.padded.segment.kk{
+    position: absolute;
+    left: 50%;
+    top:75%;
+    transform: translate(-50%,-50%);
+
+}
+
+.ui.inverted.vertical.very.padded.segment.bb{
+    top:550px;
+    height: 80px;
+
+
+}

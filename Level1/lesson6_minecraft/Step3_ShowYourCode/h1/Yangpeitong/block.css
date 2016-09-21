@@ -1,0 +1,51 @@
+
+
+html,body {
+    height:100%;
+}
+
+.block-1 {
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background:url('images/cobble_stone.png');
+    background-size:80px 80px;
+    position: relative;
+
+}
+
+.block-2 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+    background:url('images/stonebrick.png');
+    background-size:80px 80px;
+    position: absolute;
+    top:50%;
+}
+
+.block-3 {
+    box-sizing: border-box;
+    width: 50%;
+    height:66%;
+    background:url('images/inner_cobble_stone.png');
+    background-size: 50px 50px;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+}
+
+.image-1 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform: translate(-50%);
+}
+body {
+    margin: 0;
+    background: url('images/brick.jpg');
+    background-size: 150px 150px;
+}

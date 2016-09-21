@@ -1,0 +1,41 @@
+.mine-1{
+    box-sizing: border-box;
+    width: 192px;
+    height:192px;
+    background:url('images/hard.png');
+    background-size:64px 64px;
+    position:relative;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%);
+
+}
+
+.mine-fire{
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+    background:url('images/fire.png');
+    background-size: 96px 96px;
+    position:relative;
+    left: 50%;
+    top: 41%;
+    transform: translate(-50%);
+}
+
+.bg{
+    width: 192px;
+    height:512px;
+    background: url('images/stone.png');
+    position:absolute;
+    left: 50%;
+    bottom:0%;
+    transform: translate(-50%);
+}
+
+body{
+    margin: 0px;
+    background:url('images/brick.png');
+    background-size:  64px 64px;
+
+}
