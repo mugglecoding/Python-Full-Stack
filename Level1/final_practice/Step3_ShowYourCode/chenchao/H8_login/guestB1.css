@@ -1,0 +1,41 @@
+body{
+    background: url('images/211.jpg');
+    background-size: cover;
+    margin: 0px;
+    position: relative;
+}
+
+.column.copyedd{
+    background: url('images/people-say.png');
+    width: 200px;
+    height: 500px;
+    background-size:cover;
+    position:absolute;
+}
+.six.wide.column.copyeddd{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    background-size:cover;
+    position:absolute;
+}
+
+.ui.two.centered.grid.lefthand{
+    position: relative;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 30%;
+}
+
+.ui.inverted.vertical.text.menu{
+    position: relative;
+    transform: translate(-50%,-50%);
+    top:30%;
+    left: 60%;
+}
+
+.angle.left.inverted.icon{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: -150%;
+}

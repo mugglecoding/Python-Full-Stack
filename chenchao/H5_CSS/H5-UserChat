@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Homework5_css</title>
+        <link rel="stylesheet" href="block.css" media="screen" title="no title">
+    </head>
+    <body style="background-color:">
+        <div class="glass-1">
+            <div style="">
+                <span class="glass-name">
+                    Username
+                </span>
+                <span style="display:inline">
+                    13 Hour ago
+                </span>
+            </div>
+            <div class="">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+
+        <div class="glass-2">
+            <div style="">
+                <span class="glass-name">
+                    Username
+                </span>
+                <span style="display:inline">
+                    13 Hour ago
+                </span>
+            </div>
+            <div class="">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                div
+                </div>
+            </div>
+
+        <div class="glass-3">
+            <div style="">
+                <span class="glass-name">
+                    Username
+                </span>
+                <span style="display:inline">
+                    13 Hour ago
+                </span>
+            </div>
+            <div class="">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                div
+                <div class="">
+                    <div class="glass-2">
+                        <div style="">
+                            <span class="glass-name">
+                                Username
+                            </span>
+                            <span style="display:inline">
+                                13 Hour ago
+                            </span>
+                        </div>
+                        <div class="">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            <div class="">
+                                <div class="glass-3">
+                                    <div style="">
+                                        <span class="glass-name">
+                                            Username
+                                        </span>
+                                        <span style="display:inline">
+                                            13 Hour ago
+                                        </span>
+                                    </div>
+                                    <div class="">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

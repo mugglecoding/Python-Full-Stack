@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    background-color: rgb(222, 222, 222);
+}
+
+.ui.basic.segment.copyed{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top: 105%;
+}
+
+.arthas{
+    position: absolute;
+}
