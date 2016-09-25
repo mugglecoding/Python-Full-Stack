@@ -1,0 +1,25 @@
+
+
+.ui.basic.conter.aligned.segment.master{
+     height: 320px;
+     width: 450px;
+     background-color: rgba(210, 236, 220, 0.9);
+     left:35%;
+     top:10%;
+}
+
+
+.content.login {
+    position: absolute;
+    top:2px;
+    left:10px;
+    margin: -10px;
+}
+
+.content.left{
+    position: absolute;
+    margin: -10px;
+    left:10px;
+    top:30px;
+    transition: translate(50% -50%);
+}

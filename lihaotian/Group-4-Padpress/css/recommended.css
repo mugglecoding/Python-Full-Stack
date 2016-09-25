@@ -1,0 +1,14 @@
+.ui.vertical.basic.segment.recommended {
+    background-color: rgb(223, 225, 228);
+    padding-bottom: 30px;
+}
+
+.ui.centered.header.recommended {
+    padding-top: 20px;
+}
+.sub.header.recommended {
+    font-size: 50px;
+}
+.tow.column.toper {
+    background: url('images/201609181800269147.jpg');
+}
