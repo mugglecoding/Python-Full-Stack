@@ -1,0 +1,54 @@
+/*.ui.label.avatar.{
+. background-color: transparent;
+}*/
+
+/*.ui.segment.top{
+  position: relative;
+}
+.ui.red.inverted.fixed.menu{
+  height: 60px;
+}
+.ui.image.logo{
+  position: absolute;
+  top: 50%;
+  transform: translate(-0%,-50%);
+}
+.ui.vertical.right.inverted.menu{
+  background-color: transparent;
+  position: relative;
+}
+.ui.avatar.image{
+  position: absolute;
+  top: 50%;
+  transform: translate(-0%,-50%);
+}
+.ui.inverted.segment.lable{
+  background-color: transparent;
+  position: absolute;
+  left: 30px;
+
+}
+*/
+.ui.three.item.menu.borderless{
+  width:260px;
+   
+}
+.ui.basic.very.padding.segment{
+  
+  padding-left: 220px;
+
+}
+/*.content.noborder{
+  border-style: dotted;
+  border-width: 10px; 
+  border-color: red;
+}*/
+.ui..basic.center.segment.bottom{
+  padding-left: 50%;
+}
+.ui.segment.arrow{
+  width: 99px;
+  padding: 0px;
+  margin-left: 50%;
+  transform: translate(-50%,-0%);
+}

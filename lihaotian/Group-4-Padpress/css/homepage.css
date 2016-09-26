@@ -1,0 +1,136 @@
+/*.ui.eleven.column.grid{
+  box-sizing: border-box;
+  width: auto;
+  height:100px;
+}*/
+.ui.menu.top.segment{
+  background: rgb(234, 234, 234);
+  box-sizing: border-box;
+  /*width: 100%;*/
+  height: 30px;
+  left:50%;
+  transform: translate(-50%);
+  margin-top: -10px
+}
+
+
+
+.ui.text.ten.item.menu{
+  box-sizing: border-box;
+  width: 80%;
+  height: auto;
+  left:49%;
+  transform: translate(-50%);
+}
+
+
+
+.ui.segment.banner{
+  background: url(../images/banner.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  box-sizing: border-box;
+  width: 1920px;
+  height: 790px;
+}
+
+/*.ui.text.three.item.menu {
+  box-sizing: border-box;
+  width:345px;
+  height:47px;
+  position: absolute;
+  left: 50%;
+  top:60%;
+  transform: translate(-50%,-60%);
+}*/
+
+
+.ui.text.three.item.menu > .item.buy {
+  background-image: url(../images/home_0000s_0000s_0000s_0000s_0000s_0001_button.png);
+  box-sizing: border-box;
+  width: 135px;
+  height:55px;
+  font-size: 3px;
+  font-size: 35px;
+}
+
+.ui.text.three.item.menu > .item.recent {
+  background-image: url(../images/home_0000s_0000s_0000s_0000s_0003_rent.png);
+  box-sizing: border-box;
+  width: 135px;
+  height:55px;
+  font-size: 25px;
+}
+
+.ui.text.three.item.menu > .item.sell {
+  background-image: url(../images/home_0000s_0000s_0000s_0000s_0002_sell.png);
+  box-sizing: border-box;
+  width: 135px;
+  height:55px;
+  height:55px;
+  font-size: 25px;
+}
+
+.ui.container.grey{
+  /*background-color: white;*/
+  background-image: url(../images/grey.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 750px;
+  height:100px;
+}
+
+
+.ui.form{
+  box-sizing: border-box;
+  width: 800px;
+  height: auto;
+  padding-left:30px;
+  padding-top:20px;
+}
+
+.field.dropdown{
+  position: absolute;
+  left:50%;
+  transform: translate(-50%);
+}
+
+
+.ui.container.yours {
+  box-sizing: border-box;
+  width: 100%;
+  height: 768px;
+
+}
+
+
+/*.ui.container.house.one{
+  box-sizing: border-box;
+  width: 1400px;
+  height:auto;
+}*/
+
+/*.ten.wide.column{
+  background:url(../images/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing:border-box;
+  width: 1000px;
+  height:400px;
+
+}*/
+
+/*.five.wide.column{
+  background:url(../images/2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing:border-box;
+}
+.five.wide.column.second{
+  background: url(../images/3.png)
+}*/
+
+/*.ui.teal.button{
+  padding-right:30px;
+}*/
