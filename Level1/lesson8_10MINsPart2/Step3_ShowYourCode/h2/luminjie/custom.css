@@ -1,0 +1,11 @@
+.ui.vertical.segment.background{
+    background: url('images/star_banner.jpg');
+    background-size:cover;;
+}
+.ui.images.person{
+    height: 50px;
+    width: 50px;
+}
+.ui.padded.container.segment{
+    width: 500px;
+}

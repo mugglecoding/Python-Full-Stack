@@ -1,0 +1,34 @@
+.ui.basic.vertical.segment.background{
+    background: url('images/super_blur_back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.ui.container.vertical.segment.dialog{
+    width: 600px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.ui.basic.vertical.segment.left{
+    background: url('images/red_regi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 8px;
+}
+.ui.vertical.inverted.segment.right{
+    background: rgb(255, 255, 255);
+    height: 400px;
+    padding: 8px;
+}
+.ui.text.menu{
+    margin: 0px;
+}
+.ui.inverted.center.aligned.header{
+    padding-top: 30px;
+}
+.ui.form{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}

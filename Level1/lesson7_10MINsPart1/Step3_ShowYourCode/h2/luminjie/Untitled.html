@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title">
+        <script src ='jquery.min.js'></script>
+        <script src ='semantic.min.js'></script>
+    </head>
+    <body>
+        <div class="ui vertical menu">
+            <div class="ui dropdown item">
+                Categories
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                   <a class="item">Electronics</a>
+                   <a class="item">Automotive</a>
+                   <a class="item">Home</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui dropdown">
+            Disabled Item <i class="dropdown icon"></i>
+            <div class="menu">
+               <div class="item">Choice 1</div>
+               <div class="disabled item">Disabled</div>
+               <div class="item">Choice 3</div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $('.ui.dropdown')
+            .dropdown()
+            ;
+        </script>
+    </body>
+</html>

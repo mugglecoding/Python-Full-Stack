@@ -1,0 +1,29 @@
+.ui.vertical.inverted.padded.red.segment{
+.   padding: 8px;
+
+}
+
+.ui.header.title{
+    margin-top: 30px;
+}
+.ui.three.item.menu{
+    width: 300px;
+    transform: translate(-50%,-50%);
+    position: relative;
+    left: 50%;
+    top: 5%;
+}
+.ui.two.item.menu{
+    width: 100px;
+    transform: translate(-50%,-50%);
+    position: relative;
+    left: 50%;
+    top: 5%;
+}
+.ui.header{
+    margin: 0px;
+}
+.ui.vertical.basic.container.segment{
+    width: 800px;
+    margin-top: 30px;
+}
